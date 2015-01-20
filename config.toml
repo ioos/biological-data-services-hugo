@@ -1,0 +1,20 @@
+baseurl = "http://ioos.github.io/biological-data-services"
+CanonifyUrls = true
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+languageCode = "en-us"
+[params]
+  Title = "Biological Data Services Docs"
+  Tagline = "Procedures, codes, scripts, templates"
+[params.Github]
+  Head = "master"
+  Url = "https://github.com/ioos/biological-data-services"
+[[menu.extramedia]]
+    name = "Webinar: IOOS Biological Data Enrollment Process (video)"
+    url = "https://mmancusa.webex.com/mmancusa/ldr.php?RCID=a08a97a20c0328828c0bc2f4e07f0fa2"
+    weight = -110
+    identifier = "about"
+	
+	
+ 
