@@ -6,7 +6,7 @@ publishdir = "public"
 languageCode = "en-us"
 [params]
   Title = "Biological Data Services Docs"
-  Tagline = "Procedures, codes, scripts, templates"
+  Tagline = "Procedures, tutorials, templates, etc."
 [params.Github]
   Head = "master"
   Url = "https://github.com/ioos/biological-data-services"
