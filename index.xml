@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> </title>
+    <link>http://ioos.github.io/biological-data-services/index.xml/</link>
+    <language>en-us</language>
+    <author></author>
+    <rights>(C) 2014</rights>
+    <updated>2014-08-04 07:56:39 &#43;0000 UTC</updated>
+
+    
+      
+        <item>
+          <title>ABOUT: Biological Data Enrollment Process</title>
+          <link>http://ioos.github.io/biological-data-services/index.html</link>
+          <pubDate>Mon, 04 Aug 2014 07:56:39 UTC</pubDate>
+          <author></author>
+          <guid>http://ioos.github.io/biological-data-services/index.html</guid>
+          <description>&lt;!-- For a single homepage put in FrontMatter url = &#34;index.html&#34; --&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“This IOOS Biological data solutions and linking to users applications will allow people to do research that simply could not be done before due to access and format challenges. It will save weeks to months of time acquiring, reformatting, understanding the collection techniques and conducting the analyses”&lt;/em&gt;&lt;/strong&gt;
+&lt;p align=&#34;right&#34;&gt;Mitch Roffer (ROFFS TM Inc.)&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;“The obtainable consistency of the biological data due to standards, as well as the richness and standard approach to detailed circumstances of observation, are what enable IOOS Biological Data for applications”&lt;/strong&gt;&lt;/em&gt;
+&lt;p align=&#34;right&#34;&gt;Philip Goldstein (OBIS-USA)&lt;/p&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This document describes the data enrollment procedures proposed by IOOS Data Management and Communication (DMAC) to support sharing and integration of aquatic biological data (i.e. IOOS core variables: fish species, fish abundance, zooplankton species, zooplankton abundance, phytoplankton species). However these data services are applicable to any aquatic taxa that have presence, absence and abundance information.&lt;/p&gt;
+
+&lt;p&gt;The document encompasses the following major areas:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;IOOS basic principles for sharing ocean observing data.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Biological data flow from IOOS Data providers through IOOS Regional Association to US IOOS DMAC system.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The types of enrollment procedures and the steps of enrolling a data provider.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>IOOS Biological Data Services Enrollment Procedures</title>
+          <link>http://ioos.github.io/biological-data-services/biological-data-procedure/</link>
+          <pubDate>Tue, 04 Mar 2014 07:56:39 UTC</pubDate>
+          <author></author>
+          <guid>http://ioos.github.io/biological-data-services/biological-data-procedure/</guid>
+          <description>
+
+&lt;p&gt;&amp;nbsp; &lt;br&gt;
+&amp;nbsp; &lt;br&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;INTRODUCTION&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“This IOOS Biological data solutions and linking to users applications will allow people to do research that simply could not  be done before due to access and format challenges.  It will save weeks to months of time acquiring, reformatting,  understanding the collection techniques and conducting the analyses”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Mitch Roffer (ROFFS TM Inc.)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“The obtainable consistency of the biological data due to standards, as well as the richness and standard approach to detailed circumstances of observation, are what enable IOOS Biological Data for applications”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Philip Goldstein (OBIS-USA)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This document describes the data enrollment procedures proposed by IOOS Data Management and Communication (DMAC) to support sharing and integration of aquatic biological data (i.e. IOOS core variables: fish species, fish abundance, zooplankton species, zooplankton abundance, phytoplankton species). However these data services are applicable to any aquatic taxa that have presence, absence and abundance information.&lt;/p&gt;
+
+&lt;p&gt;The document has the following major sections:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;IOOS Basic Principle&lt;/strong&gt;&lt;br&gt;Describes the IOOS data principle for sharing ocean observing data.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;IOOS Biological Data Flow&lt;/strong&gt; &lt;br&gt;Describes the biological data flow from IOOS Data providers through IOOS Regional Association to US IOOS DMAC system.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Enrollment Procedures&lt;/strong&gt; &lt;br&gt;Defines the types of enrollment procedures and the steps of enrolling a data provider.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;BASIC PRINCIPLE&lt;/h1&gt;
+
+&lt;p&gt;IOOS was established with the core principle that observation data should be made freely available to all. This has implications:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Data providers must be made aware that their data will be offered freely through IOOS.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Data providers will be responsible for restricting access to any data which may be too sensitive for general release (e.g. location data for endangered species). Providers are free to manage such control in any way that makes sense in their context.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;IOOS BIOLOGICAL DATA FLOW&lt;/h1&gt;
+
+&lt;p&gt;Data flow is represented in &lt;a href=&#34;#Fig_1&#34;&gt;&lt;strong&gt;Figure 1&lt;/strong&gt;&lt;/a&gt;. IOOS Regional Associations (RA) can enroll biological data providers (i.e. IOOS Biological Core variables: fish species, fish abundance, zooplankton species, zooplankton abundance and phytoplankton species) following the IOOS enrollment procedures outlined and register their web services to the &lt;a href=&#34;http://www.ioos.noaa.gov/catalog/register.html&#34;&gt;IOOS Registry&lt;/a&gt;. For broader dissemination, the IOOS registry will then connect the data to other data portals such as  &lt;a href=&#34;http://www.data.gov/&#34;&gt;Data.gov&lt;/a&gt;, &lt;a href=&#34;http://www.usgs.gov/obis-usa/&#34;&gt;OBIS&lt;/a&gt;, &lt;a href=&#34;https://inport.nmfs.noaa.gov/inport/&#34;&gt;NMFS InPort&lt;/a&gt;, etc., and national Archiving Center (&lt;a href=&#34;http://www.nodc.noaa.gov/&#34;&gt;NODC&lt;/a&gt;), and make the data accessible to data users.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp; &lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/img_fig_1.jpg&#34; alt=&#34;IOOS Biological data flow&#34; /&gt;
+
+&lt;a name=&#34;Fig_1&#34;&gt;&lt;/a&gt; &lt;strong&gt;Figure 1. IOOS Biological data flow: from data providers through RAs to IOOS Registry/Catalog/Viewer &lt;br&gt;(i.e. US IOOS Portal) and other National portals (e.g. OBIS-USA, Data.gov, NMFS InPORT) and archiving center (NODC).&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp; &lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Data providers can provide their biological data to RAs through accepted RAs webservice, database connection or data extract. RAs will then enroll the data using IOOS Biological Data Services (IOOS BDS) enrollment procedures (see below) and register the data to US IOOS service registry. The data users (e.g. scientists, managers) can access the data from US IOOS portal, RA portals or from other national portal and archiving center (NODC) in a standard form.&lt;/p&gt;
+
+&lt;p&gt;In order for an RA to enroll biological data in the IOOS DMAC system, the RA must first agree to the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The RA will work with their region’s data providers to enroll their data through IOOS DMAC system. This will include assisting/training the data providers in formatting their original data into IOOS Biological Data Services terms (IOOS BDS) to enhance standardization and integration with IOOS system, configuring the access service and helping data to serve data and how to help the data providers to improve discovery metadata.&lt;/li&gt;
+&lt;li&gt;The RA will deploy standard-based data access services such as &lt;a href=&#34;http://coastwatch.pfeg.noaa.gov/erddap/index.html&#34;&gt;ERDDAP&lt;/a&gt; and/or other accepted IOOS data access service (&lt;a href=&#34;http://www.ioos.noaa.gov/data/contribute_data.html&#34;&gt;see details here&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;The RA will ensure that the data gets registered into the IOOS service registry according to the IOOS DMAC guidance that can be found &lt;a href=&#34;https://github.com/ioos/registry&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;toc_3&#34;&gt;ENROLLMENT PROCEDURES&lt;/h1&gt;
+
+&lt;p&gt;Data providers can provide their data set in electronic form to the RA in their region. Then, the RA will publish the data. The RA will then work with the provider to determine the necessary steps to ensure the data are compliant with IOOS BDS. Data providers, in turn, will work with the RA to complete the necessary data transformation according to IOOS BDS &lt;a href=&#34;http://www.ioos.noaa.gov/biological_observations/welcome.html&#34;&gt;Guidelines&lt;/a&gt; and &lt;a href=&#34;http://mmisw.org/ont/ioos/biological&#34;&gt;Standard Vocabulary&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Documentation and reference examples for the aspects of the enrollment process will be continually updated with community engagement. Further, the RA will provide resources (DMAC Coordinator and DMAC team) to assist the data provider with the enrollment process while continuing the essential involvement of data providers who know the content-specific details. Then, the RA will then publish the data via web services.&lt;/p&gt;
+
+&lt;p&gt;The optimal model for sharing data for a prospective provider depends on whether or not the group or individual is interested in maintaining their own data server and whether or not they expect to be making regular updates to the data set.&lt;/p&gt;
+
+&lt;p&gt;The IOOS model is one of a network of distributed data services. One benefit of such a model is data providers maintain and control distribution of their own data while at the same time these data are exposed through the wider network. However, it is recognized that many providers may not have the resources or interest in maintaining local data services. In these cases the RA can act as the initial data access point.&lt;/p&gt;
+
+&lt;p&gt;The following section of this document describe the steps (&lt;a href=&#34;#Fig_2&#34;&gt;&lt;strong&gt;Figure 2&lt;/strong&gt;&lt;/a&gt;) by which an RA would enroll biological data providers in their region.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp; &lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/img_fig_2.jpg&#34; alt=&#34;Procedure steps&#34; /&gt;
+
+&lt;a name=&#34;Fig_2&#34;&gt;&lt;/a&gt; &lt;strong&gt;Figure 2. Biological data provider’s enrollment procedure steps.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp; &lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Data files are the most common way for data providers to send their data to the RA. Data in relational databases can be dumped to data files are the next format that data providers use to transfer the data.&lt;/p&gt;
+
+&lt;p&gt;The core component of IOOS BDS is an occurrence record. An occurrence is an observer&amp;rsquo;s, or an observing system&amp;rsquo;s record of a named taxon at a specific location and time along with detailed information about the circumstances of the observation. A collection of occurrence records forms a database-like table of data, with columns (each with a specific type of information) and rows (each with an occurrence record). Though occurrence information can exist in other data structures, a table with columns and rows is a helpful model.&lt;/p&gt;
+
+&lt;p&gt;Occurrence data can be made more consistent by using standard observation methods and by following standards, such as IOOS BDS, for formatting and presenting the data. Data that is more consistent is more useful.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_4&#34;&gt;Step #1 - Format Occurrence Data to enroll data in IOOS BDS&lt;/h2&gt;
+
+&lt;p&gt;The goal is to obtain data in taxon-location-time format. The RA will work with the provider in two steps: (1a) verify that the contents of the dataset do in fact contain occurrence information (observed taxon-location-date-details), and (1b) perform data manipulation, such as relational joins, to gather the occurrence data in a single table with columns and rows with each row representing a taxon-specific occurrence. A row may represent a group of occurences, after binning by sex, size, or other characteristics of biology or the observation method, or they may be aggregated as totals without division into such bins. Each column from left to right across the row represents detail about the occurrence. For more on the use and meaning of each column, see &lt;a href=&#34;/biological-data-procedure/#toc_10&#34;&gt;Step #3&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_5&#34;&gt;Step # 2. Gather Human Metadata&lt;/h2&gt;
+
+&lt;p&gt;The RA will work with the data providers to gather descriptive metadata for the datasets, including: title, summary/abstract, the data provider’s name and email address, the recommended way to cite the dataset, keywords, georeference method, coordinate uncertainty, taxonomic identification details, the sampling protocol / effort / conditions, derived data calculation methods (e.g. for fish abundance
+estimate), history, and related resources.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Machine metadata&lt;/strong&gt;&lt;/em&gt; is metadata can be generated from the data. See &lt;a href=&#34;/biological-data-procedure/#toc_11&#34;&gt;Step #4&lt;/a&gt;. This will be done by RA data staff.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Human metadata&lt;/strong&gt;&lt;/em&gt; refers to essential descriptive details, vital to effective use of the data, which must be gathered, written, edited by humans. Human metadata cannot be generated automatically from the contents of a dataset. Human metadata is the principle method used to capture expertise from the data providers; the RA data staff will assist in every way feasible.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_6&#34;&gt;Step # 3. Format Data to IOOS BDS&lt;/h2&gt;
+
+&lt;p&gt;This step involves matching columns in the provider’s data table with IOOS BDS terms (&lt;a href=&#34;http://www.ioos.noaa.gov/biological_observations/welcome.html&#34;&gt;http://www.ioos.noaa.gov/biological_observations/welcome.html&lt;/a&gt; or in MMI &lt;a href=&#34;http://mmisw.org/ont/ioos/biological&#34;&gt;http://mmisw.org/ont/ioos/biological&lt;/a&gt;) and documenting exceptions, questions, and issues that need any kind of follow-up. This step requires a thorough understanding of how each term is used in the original data table as well as a thorough understanding of the IOOS BDS terms. In many cases, terms in the original data table map directly to IOOS BDS terms, and a rich, standardized dataset can be created. In other cases, columns of data from the original data table need to be modified or reformatted to match the IOOS BDS specification. Precise attention to data formats and term definitions is required. IOOS Biology terms are specific: they are not used as &amp;ldquo;catch-all&amp;rdquo; terms that have general or approximate meaning. An &amp;ldquo;enrollment journal&amp;rdquo; approach is recommended (See example in Appendix). An enrollment journal is a document with a table that contains columns for: the IOOS Biology term, the definition of the IOOS Biology term, the name of the corresponding column in the original data, and documentation/comments regarding format changes or conversion requirements, related issues, processing details, and other issues that need further investigation. The enrollment journal is intended to be a multi-party document where enrollers and RA staff can communicate such issues and questions among those whose expertise is required to resolve the issues and complete the enrollment. The enrollment journal encourages an analytical, quality-based approach to gaining consensus of multiple parties within the data provider’s organization and the RA as to the best way to depict the original data in the IOOS BDS standard. The enrollment journal also provides a rich method to gather and refine information that will go into the human metadata that describes the dataset and how it was made available via IOOS BDS.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_7&#34;&gt;Step # 4. Generate Machine Metadata&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Machine metadata&lt;/strong&gt;&lt;/em&gt; is metadata that can be generated from data.
+Examples: number of records, number of taxa and locations, date range, ranges and enumeration of other values, and geographic extent.&lt;/p&gt;
+
+&lt;p&gt;Other machine metadata comes from the IOOS BDS terminology definitions.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_8&#34;&gt;Step # 5. Metadata to ISO 19115 XML&lt;/h2&gt;
+
+&lt;p&gt;IOOS recommends using ISO 19115 XML for metadata standards. In this step, the RA data staff can assist data providers with creating an ISO 19115 metadata document that follows the ISO 19115 guidance from NGDC and NCDDC. See &lt;a href=&#34;https://geo-ide.noaa.gov/wiki/index.php?title=Category%3AISO_19115&#34;&gt;Category:ISO 19115&lt;/a&gt; in NOAA Environmental Data Management Wiki. Or, if an RA is using ERDDAP, then &lt;a href=&#34;http://coastwatch.pfeg.noaa.gov/erddap/download/setupDatasetsXml.html#globalAttributes&#34;&gt;ERDDAP will automatically generate the ISO and FGDC XML documents&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_9&#34;&gt;Step #6. Service Configurations&lt;/h2&gt;
+
+&lt;p&gt;If the dataset will be published via ERDDAP, an &lt;a href=&#34;http://coastwatch.pfeg.noaa.gov/erddap/download/setupDatasetsXml.html&#34;&gt;XML description of the dataset&lt;/a&gt; needs to be created so that ERDDAP knows how to access the data and how to present the data to users.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_10&#34;&gt;Step # 7. Publish Metadata&lt;/h2&gt;
+
+&lt;p&gt;The dataset’s metadata, or a link to it, must be distributed to &lt;a href=&#34;https://github.com/ioos/registry&#34;&gt;IOOS Service Registry&lt;/a&gt;. IOOS Registry then will make it available to desired locations, such as repositories (e.g., NASA GCMD etc.), portals (e.g., Data.gov), search engines, or other systems that can utilize the metadata. Requirements for this step include assuring that the master copy of metadata is under control, and that there are procedures to assure that all secondary copies will get updated whenever the master copy is changed.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_11&#34;&gt;Step # 8. Archive with NOAA National Oceanographic Data Center (NODC)&lt;/h2&gt;
+
+&lt;p&gt;Send the new dataset (data and metadata) to NODC. This should be done with the process that is already in place between NOAA IOOS Program Office, RAs and NODC to archive observing data. Two important aspects of this coordination with NODC are (1) make sure that NODC has the same version of the data (i.e., the same snapshot in the lifecycle of the data contents) that IOOS is serving, and (2) as much as possible, the same metadata should be used by IOOS BDS and NODC.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_12&#34;&gt;Step #9. Synchronizing data and metadata with OBIS-USA and IOOS System&lt;/h2&gt;
+
+&lt;p&gt;This step requires OBIS-USA to establish a relationship with IOOS to query the IOOS Service Registry/Catalog and vise-versa. Since OBIS-USA is a national resource for discovery, attribution, access, and use of data from any and all US marine biogeographical data sources, each RAs data providers dataset&amp;rsquo;s participation in OBIS-USA via IOOS can be an additional means of discovery, referral and attribution for IOOS data. In most cases, OBIS- USA will carry a more limited &amp;ldquo;biogeographic&amp;rdquo; form of data, with a reduced level of detail, than the IOOS nodes will be serving. If users find data at OBIS-USA and want more detailed data, they will be referred to the IOOS service.&lt;/p&gt;
+
+&lt;p&gt;The practical steps of integrating with OBIS-USA will largely be accomplished by IOOS&amp;rsquo;s enrollment/publication process, due to the shared definitions within IOOS BDS and OBIS- USA&amp;rsquo;s MBG (Marine BioGeography) standard, as well as common metadata practices.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_13&#34;&gt;ENROLLMENT JOURNAL TO DEVELOP A DATA RESOURCE FOR IOOS BDS&lt;/h1&gt;
+
+&lt;p&gt;An example of the Enrollment Journal may be found in the &lt;a href=&#34;https://github.com/abirger/biological-data-services/blob/master/doc/IOOS_BDS_ENROLLEMENT_PROCESS_Draft_vs1.0.pdf&#34;&gt;APPENDIX&lt;/a&gt; section of the PDF version of the document. The example encompasses the &lt;a href=&#34;http://www.galvestonlab.sefsc.noaa.gov/stories/2013/ecology/&#34;&gt;Comparative Assessment of Gulf Estuarine Systems (CAGES) Louisiana&lt;/a&gt; performed by NOAA Southeast Fisheries Science Center Galveston Lab.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_14&#34;&gt;REFERENCE INFORMATION&lt;/h1&gt;
+
+&lt;h2 id=&#34;toc_15&#34;&gt;Contribution&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Name&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Association&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;Hassan.Moustahfid@noaa.gov&#34;&gt;&lt;strong&gt;Hassan Moustahfid&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NOAA, U.S. Integrated Ocean Observing System Program Office (&lt;strong&gt;corresponding author&lt;/strong&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Philip Goldstein&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;University of Colorado/Ocean Biogeographic Information System-USA, Boulder, CO&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;toc_16&#34;&gt;Validation&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Name&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Association&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;strong&gt;Zdenka Willis&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Director of U.S. Integrated Ocean Observing System Program Office&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;toc_17&#34;&gt;Revisions&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Author&lt;/th&gt;
+&lt;th&gt;Version&lt;/th&gt;
+&lt;th&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;August 15, 2013&lt;/td&gt;
+&lt;td&gt;Hassan Moustahfid&lt;/td&gt;
+&lt;td&gt;0.9&lt;/td&gt;
+&lt;td&gt;Created&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;September 4-6, 2013&lt;/td&gt;
+&lt;td&gt;Philip Goldstein&lt;/td&gt;
+&lt;td&gt;0.9&lt;/td&gt;
+&lt;td&gt;Added information to &amp;ldquo;Enrollment Procedures&amp;rdquo; section; added text, pp 9, 12, 13, 14; appended enrollment journal, pp 15-49&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;September 6, 2013&lt;/td&gt;
+&lt;td&gt;Hassan Moustahfid&lt;/td&gt;
+&lt;td&gt;0.9&lt;/td&gt;
+&lt;td&gt;Edits and revision to the drafts&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;December 20, 2013&lt;/td&gt;
+&lt;td&gt;Hassan Moustahfid&lt;/td&gt;
+&lt;td&gt;0.9&lt;/td&gt;
+&lt;td&gt;Final changes and edits&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;January 10, 2014&lt;/td&gt;
+&lt;td&gt;Hassan Moustahfid&lt;/td&gt;
+&lt;td&gt;0.9&lt;/td&gt;
+&lt;td&gt;Revised in response to Charly Alexander, Rob Ragsdale and Derrick Snowden (US IOOS) comments&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;February 14, 2014&lt;/td&gt;
+&lt;td&gt;Hassan Moustahfid&lt;/td&gt;
+&lt;td&gt;0.9&lt;/td&gt;
+&lt;td&gt;Revised in response to Jim Potemra (PACIOOS), Vembu Subramanian (SECOORA), Matt Howard (GCOOS-RA) and Bob Simons (NOAA/SWFSC/ER) comments/edits.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;March 28, 2014&lt;/td&gt;
+&lt;td&gt;Hassan Moustahfid&lt;/td&gt;
+&lt;td&gt;1.0&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;toc_18&#34;&gt;Endorsement Disclaimer&lt;/h2&gt;
+
+&lt;p&gt;Mention of a commercial company or product does not constitute an endorsement by NOAA. Use of information from this publication for publicity or advertising purposes concerning proprietary products or the tests of such products is not authorized&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_19&#34;&gt;Acknowledgments&lt;/h2&gt;
+
+&lt;p&gt;Special thanks go to Jim Potemra (PacIOOS), Vembu Subramanian (SECOORA), Matt Howard (GCOOS), Bob Simons (NOAA/SWFSC/ERD) and Charles Alexander, Rob Ragsdale and Derrick Snowden (U.S. IOOS) for comments and suggestions that considerably improved this document content.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_20&#34;&gt;Citations&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.ioos.noaa.gov/data/contribute_data.html&#34;&gt;IOOS DMAC Guidance&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.ioos.noaa.gov/data/contribute_data.html&#34;&gt;Guidance for Implementation of the Integrated Ocean Observing System (IOOS) Data Management and Communications (DMAC) Subsystem Version July 2013&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://mmisw.org/ont/ioos/biological&#34;&gt;IOOS Biological Data Terminology version 1.1&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://geo-ide.noaa.gov/wiki/index.php?title=Category%3AISO_19115&#34;&gt;ISO 19115 Metadata Standard for Geographic Data NOAA NGDC&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/ioos/registry&#34;&gt;IOOS Service Registry&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&amp;nbsp; &lt;br&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+
+  </channel>
+</rss>
