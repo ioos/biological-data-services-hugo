@@ -1,4 +1,4 @@
-baseurl = "http://abirger.github.io/biological-data-services"
+baseurl = "http://ioos.github.io/biological-data-services"
 CanonifyUrls = true
 contentdir = "content"
 layoutdir = "layouts"
@@ -6,7 +6,7 @@ publishdir = "public"
 languageCode = "en-us"
 [params]
   Title = "Biological Data Services Docs"
-  Tagline = "Procedures, docs, templates, vocabularies"
+  Tagline = "Procedures, tutorials, templates, vocabularies"
 [params.Github]
   Head = "master"
   Url = "https://github.com/ioos/biological-data-services"
