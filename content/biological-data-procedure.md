@@ -9,7 +9,15 @@ title = "IOOS Biological Data Services Enrollment Procedures"
 +++
 
 
+_This document describes the data enrollment procedures proposed by IOOS Data Management and Communication (DMAC) to support sharing and integration of aquatic biological data (i.e. IOOS core variables: fish species, fish abundance, zooplankton species, zooplankton abundance, phytoplankton species). However these data services are applicable to any aquatic taxa that have presence, absence and abundance information._
 
+_The document has the following major sections:_
+
+- _**IOOS Basic Principle**<br>Describes the IOOS data principle for sharing ocean observing data._
+- _**IOOS Biological Data Flow** <br>Describes the biological data flow from IOOS Data providers through IOOS Regional Association to US IOOS DMAC system._
+- _**Enrollment Procedures** <br>Defines the types of enrollment procedures and the steps of enrolling a data provider._
+<!--more-->
+ 
 &nbsp; <br>
 &nbsp; <br>
 
@@ -24,15 +32,6 @@ title = "IOOS Biological Data Services Enrollment Procedures"
 >
 Philip Goldstein (OBIS-USA)
 
-This document describes the data enrollment procedures proposed by IOOS Data Management and Communication (DMAC) to support sharing and integration of aquatic biological data (i.e. IOOS core variables: fish species, fish abundance, zooplankton species, zooplankton abundance, phytoplankton species). However these data services are applicable to any aquatic taxa that have presence, absence and abundance information.
-
-The document has the following major sections:
-
-- **IOOS Basic Principle**<br>Describes the IOOS data principle for sharing ocean observing data.
-
-- **IOOS Biological Data Flow** <br>Describes the biological data flow from IOOS Data providers through IOOS Regional Association to US IOOS DMAC system.
-
-- **Enrollment Procedures** <br>Defines the types of enrollment procedures and the steps of enrolling a data provider.
 
 # BASIC PRINCIPLE
 

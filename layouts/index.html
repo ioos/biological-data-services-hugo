@@ -3,10 +3,10 @@
   <div class="content container">
 	<div class="posts">
       <div class="post">
-<!--
+
  	    {{ range .Data.Pages }}
            <h2><a href='{{ .Permalink }}'>{{ .Title }}</a> </h2>
-        	{{ if eq .RelPermalink "/animal-telemetry/index.html" }} 
+        	{{ if eq .RelPermalink "/biological-data-services/index.html" }} 
 				{{ .Content }}
 			{{else}}
 				{{ .Summary }} 
@@ -15,7 +15,7 @@
 				</footer>
 			{{end}}
 		{{ end }}
--->
+<!--
  	    {{ range first 1 .Data.Pages }}
            <h2><a href='{{ .Permalink }}'>{{ .Title }}</a> </h2>
         	{{ if eq .RelPermalink "/biological-data-services/index.html" }} 
@@ -30,6 +30,7 @@
 				</footer>
 			{{end}}
 		{{ end }}
+-->
 <!--
  	    {{ range .Data.Pages }}
            <h2><a href='{{ .Permalink }}'>{{ .Title }}</a> </h2>
