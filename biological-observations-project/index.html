@@ -1,0 +1,1654 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile"> 
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <title>
+    
+      IOOS Biological Observations Project &middot; Biological Data Services Docs
+    
+  </title>
+
+  
+  <link rel="stylesheet" href="http://abirger.github.io/biological-data-services/css/poole.css">
+  <link rel="stylesheet" href="http://abirger.github.io/biological-data-services/css/syntax.css">
+  <link rel="stylesheet" href="http://abirger.github.io/biological-data-services/css/lanyon.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://abirger.github.io/biological-data-services/assets/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="http://abirger.github.io/biological-data-services/assets/favicon.ico">
+
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://abirger.github.io/biological-data-services/atom.xml">
+</head>
+
+
+  <body>
+
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p align="center">&middot; <a href="http://ioos.github.io/" target="_blank">IOOS GitHub Pages</a> &middot; <br>
+	a collection of IOOS documentation and software</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item " href="http://abirger.github.io/biological-data-services/">Home</a>
+
+
+  <div class="sidebar-item">
+    <p>Documents</p>
+  </div>
+
+<p style="text-align:right"> 
+    
+    
+      
+        <a class="sidebar-nav-item-list " href="http://abirger.github.io/biological-data-services/biological-data-procedure/">IOOS Biological Data Services Enrollment Procedures</a>
+      
+    
+      
+        <a class="sidebar-nav-item-list  active " href="http://abirger.github.io/biological-data-services/biological-observations-project/">IOOS Biological Observations Project</a>
+      
+    
+</p>
+<p style="text-align:right">
+      
+        <a class="sidebar-nav-item-list" href="https://mmancusa.webex.com/mmancusa/ldr.php?RCID=a08a97a20c0328828c0bc2f4e07f0fa2" target="_blank">Webinar: IOOS Biological Data Enrollment Process (video)</a>
+      
+</p>
+
+    <a class="sidebar-nav-item" href="https://github.com/ioos/biological-data-services/archive/master.zip">Download</a>
+    <a class="sidebar-nav-item" href="https://github.com/ioos/biological-data-services">GitHub repository</a>
+    <span class="sidebar-nav-item">Currently on master</span>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>&copy; 2014 U.S. IOOS. Some rights reserved</p>
+  </div>
+</div>
+
+
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h2 class="masthead-title">
+		  <a href="http://abirger.github.io/biological-data-services/" title="Home"> Biological Data Services Docs &middot; 
+		  <small>Procedures, docs, templates, vocabularies</small>
+		  <img src="http://abirger.github.io/biological-data-services/images/ioos_blue2.png" alt="Smiley face" align="right" /></a>
+		  </h2>
+        </div>
+      </div>
+
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">IOOS Biological Observations Project</h1>
+    <div id="toc" class="well col-md-4 col-sm-6">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#toc_0">About Biological Observations Data Project</a></li>
+<li><a href="#toc_1">BDP Details</a>
+<ul>
+<li><a href="#toc_2">Data Standards</a></li>
+<li><a href="#toc_3">Further Information</a>
+<ul>
+<li><a href="#toc_4">Organizations and Partners</a></li>
+<li><a href="#toc_5">Contact Information</a></li>
+<li><a href="#toc_6">Papers</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#toc_7">IOOS Biological Data Terminology</a>
+<ul>
+<li><a href="#toc_8">Introduction</a></li>
+<li><a href="#toc_9">Version 1</a>
+<ul>
+<li><a href="#toc_10">&nbsp; &nbsp; Definitions</a></li>
+<li><a href="#toc_11">&nbsp; &nbsp; Schema (XSD)</a></li>
+</ul></li>
+<li><a href="#toc_12">Version 0.9</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+  
+
+<!-- For a single homepage put in FrontMatter [url = "index.html"] -->
+
+<p><em>The IOOS Biological Observations Project is addressing the Data Management and Communications (DMAC) requirements that pertain to biological observations standards and interoperability applicable to U.S. IOOS and to various observing systems. Biological observations are highly heterogeneous and the variety of formats, logical structures, and sampling methods create significant challenges.
+The objective of the IOOS Biological Observations Projects is to develop an efficient and effective information infrastructure for biological observations, adding components and links as necessary to serve end-users.</em></p>
+
+<h1 id="toc_0">About Biological Observations Data Project</h1>
+
+<p>The objective of Biological Observations Data Project (BDP), is to help develop an efficient and effective information infrastructure for biological observations databases, adding components and web links as necessary to serve customers/end-users.  The project is currently focused on a single case-study, and it’s designed to promote biological data standards and interoperability to help customers/end-users access observations from a wide variety of sources and formats.</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://abirger.github.io/biological-data-services/images/img_fig_4_bop_blockdiagram600.jpg" alt="" />
+</p>
+
+<!-- 
+![Towed Diver Survey (TWSs)](/images/img_fig_2_towd_divr_survey240.jpg) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Stationary Point Counts (SPCs)](/images/img_fig_1_statnry_point_count240-2.jpg) 
+-->
+
+<p>Databases in use have been developed by disparate organizations, institutions, and individuals for differing purposes, and result in databases with locally-specific structures, contents, methods, and policies.<br />
+In addition, these data and applications are diverse and may change over time; as such, data from one source might contain different variables depending on when the data were collected.  These differences can make retrieving data across databases a time-consuming and ineffective process.  This project aims to improve access to data from these diverse sources.</p>
+
+<p><img src="http://abirger.github.io/biological-data-services/images/img_fig_1&amp;2.jpg" alt="" />
+</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em><strong>Towed Diver Survey (TWS) and Stationary Point Counts (SPCs)</strong></em></p>
+
+<p>The case study in focus is a reef fish population assessment. This assessment is used to establish reef fish Annual Catch Limits as defined by the Magnuson-Stevens Fishery Conservation and Management Reauthorization Act (MSRA).  The data were collected by scientists and managers at NOAA’s Pacific Islands Fisheries Science Center (PIFSC).</p>
+
+<!--
+![Towed Diver Survey (TWSs)](/images/img_fig_2_towd_divr_survey240.jpg)
+-->
+
+<p>The biological observations used for this project are species presence/absence/abundance and life history data for reef fishes in the Hawaiian Archipelago and other locations in the Pacific region. The data providers include NOAA PIFSC Coral Reef Ecosystem Division, National Park Service Pacific Island Network, and the NOAA Papahānaumokuākea Marine National Monument. The data include independent fishery surveys (diver-based reef fish observations) collected as part of each agency’s coral reef monitoring programs.
+While a single user-group was identified in the Pacific region for this project, the results should be applicable more broadly to projects utilizing biological observations, and it should be portable to other geographies.</p>
+
+<p><img src="http://abirger.github.io/biological-data-services/images/img_fig_3_bop_globe_pacific600.jpg" alt="" />
+</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em><strong>Locations of the reef-areas (i.e., islands and atolls) surveyed by</strong></em> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em><strong>Pacific Islands Fisheries Science Center / Coral Reef Ecosystem Division, PIFSC / CRED</strong></em><br>
+<br>
+<br>
+<br></p>
+
+<h1 id="toc_1">BDP Details</h1>
+
+<h2 id="toc_2">Data Standards</h2>
+
+<p>This project had adopted/adapted or had built the following data standards:
+* Schema Terminology will be based on ratified <a href="http://www.ioos.noaa.gov/exit.html?url=http%3A%2F%2Frs.tdwg.org%2Fdwc%2F">Darwin core</a>, <a href="http://www.ioos.noaa.gov/exit.html?url=http%3A%2F%2Fdublincore.org%2Fdocuments%2Fdces%2F">Dublin core</a> and proposed IOOS vocabularies. XML guide will also based on Darwin core XML guidance.
+* <a href="http://cfconventions.org/">CF Conventions</a> had been applied to biological data definition at the field level. This is to assure that IOOS Biological Project will be compatible with other geophysical datasets.
+* <a href="http://www.fgdc.gov/metadata/geospatial-metadata-standards#csdgm">FGDC Content Standard for Digital Geospatial Metadata (CSDGM)</a> and <a href="http://service.ncddc.noaa.gov/rdn/www/metadata-standards/documents/MI-Metadata.pdf">ISO 19115-2</a> are the adopted Metadata standards.
+* <a href="http://coastwatch.pfeg.noaa.gov/erddap/index.html">ERDDAP</a> is the main webservice for this project.
+* <a href="http://www.pfeg.noaa.gov/products/EDC/">Environmental Data Connector (EDC)</a> is the client developed to connect directly to ERDDAP and access data using customer application tools such as <a href="http://www.esri.com/software/arcgis">ArcGIS</a> and <a href="http://www.r-project.org/">R Project</a>.
+* To learn more about the Biological data standards implemented at the Pacific Islands Region please follow the following links:
+  - <a href="http://pacioos-mapserver2.ancl.hawaii.edu/erddap/info/index.html?page=1&amp;itemsPerPage=1000">Biological data services at the Pacific Islands Region website</a>
+  - <a href="http://oos.soest.hawaii.edu/cgi-bin/get_metadata.py?id=PACN_FISH_TRANSECT&amp;format=fgdc">FGDC and ISO Metadata</a></p>
+
+<h2 id="toc_3">Further Information</h2>
+
+<h3 id="toc_4">Organizations and Partners</h3>
+
+<p>This effort is comprised of a wide collaboration of organizations and partners, including:</p>
+
+<ul>
+<li>U.S. Integrated Ocean Observing System (IOOS)</li>
+<li>NOAA Pacific Islands Fisheries Science Center (PIFSC)/Coral Reef Ecosystem  Division (CRED)</li>
+<li>Pacific Islands Ocean Observing System (PacIOOS)</li>
+<li>NOAA Papahānaumokuākea Marine National Monument (PMNM)</li>
+<li>National Park Services (NPS) Pacific Island Network (PACN)</li>
+<li>U.S. Geological Survey /Ocean Biogeographic Information System (USGS/OBIS-USA)</li>
+<li>Hawaii Institute of Marine Biology, School of Ocean and Earth Science and Technology, University of Hawaii, Manoa (UH/HIMB)</li>
+<li>U.S. Census of Marine Life (U.S CoML)</li>
+<li>Southwest Fisheries Science Center/ Environmental Research Division (SWFSC/ ERD)</li>
+<li>NOAA Fisheries/Office of Science and Technology (OST)</li>
+</ul>
+
+<h3 id="toc_5">Contact Information</h3>
+
+<p>Project Manager, <a href="mailto:Hassan.moustahfid@noaa.gov">Dr. Hassan Moustahfid</a><br>
+Phone: 301-427-2447</p>
+
+<h3 id="toc_6">Papers</h3>
+
+<ul>
+<li>MTS reference paper - <a href="http://www.ioos.noaa.gov/library/bdp110408-005mts2011.pdf">Moustahfid et al. (2011) <em>Making United States Integrated Ocean Observing System (U.S. IOOS) Inclusive of Marine Biological Resources Ecosystems Observation.</em> OCEANS&rsquo;11 MTS/IEEE KONA in Data Visualization and Access (110408-005)</a></li>
+<li><a href="http://www.ioos.noaa.gov/biological_observations/flyer.pdf">Project flyer</a>
+<br>
+<br>
+<br></li>
+</ul>
+
+<h1 id="toc_7">IOOS Biological Data Terminology</h1>
+
+<h2 id="toc_8">Introduction</h2>
+
+<p>The IOOS Biological Data terminology is a list of data fields with names, descriptions, and format notes. It was based on ratified Darwin core, Dublin core and proposed IOOS vocabularies. XML guide was based on Darwin core XML guidance. CF Conventions had been applied to biological data definition at the field level. This is to assure that IOOS Biological Project will be compatible with other IOOS geophysical datasets. In order to “map” your database fields to the IOOS Biological Data terminology fields you will need to download the following files.</p>
+
+<h2 id="toc_9">Version 1</h2>
+
+<ul>
+<li>Originally submitted by Philip Goldstein, USGS/OBIS-USA on 2012-06-08</li>
+<li><a href="http://www.ioos.noaa.gov/exit.html?url=http%3A%2F%2Fmmisw.org%2Forr%2F%23http%3A%2F%2Fmmisw.org%2Font%2Fioos%2Fbiological">Marine Metadata Interoperability (MMI) Ontology Registry and Repository (ORR) Website</a>.  The MMI ORR provides reference URLs that promote machine-to-machine discovery and use of ontologies and vocabularies.</li>
+</ul>
+
+<h3 id="toc_10">&nbsp; &nbsp; Definitions</h3>
+
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Reference</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>modified</td>
+<td>dcterms:modified</td>
+<td>The most recent date the data originator updated or verified the record, expressed in the standard ISO 8601:2004(E). Can be the record creation date or date of subsequent update or verifiction. If the data originator does not record or provide this information, IOOS will populate this date with the date the record became available to IOOS.</td>
+</tr>
+
+<tr>
+<td>verbatimModified</td>
+<td>ioosbiology:verbatimModified</td>
+<td>The date and time value of the &ldquo;modified&rdquo; term, recorded in the exact format that the data originator provided it, for purposes of audit trail, since IOOS will convert this to ISO 8601:2004(E) for operational purposes.</td>
+</tr>
+
+<tr>
+<td>datasetID</td>
+<td>dwc:datasetID</td>
+<td>An abbreviated name for the dataset that contains this occurrence record. This may also be the technical name for the data resource in a database or web service. The datasetID occurs on each row to preserve record identity in case records served by the resource become distributed to other resources or applications.</td>
+</tr>
+
+<tr>
+<td>datasetName</td>
+<td>dwc:datasetName</td>
+<td>This is a long-form name for the dataset, more explanatory than the datasetID. The datasetName will read as a recognizable title that reflects information about the dataset. Suggested information to include in the datasetName can refer to originator, content, purpose, method, geography, or other characteristics of the dataset. This datasetName term in the data record will match the dataset name in metadata.</td>
+</tr>
+
+<tr>
+<td>higherInstitutionCode</td>
+<td>ioosbiology:higherInstitutionCode</td>
+<td>Institution codes, in the form of names, abbreviation or acronyms, separated by semicolons, that define the hierarchy of institutions within which the data originator operates. Includes the originating institution as the lowest level (rightmost) code. All abbreviations or acronyms for institutions in all levels of the hierarchy will be explained in dataset metadata.</td>
+</tr>
+
+<tr>
+<td>institutionCode</td>
+<td>dwc:institutionCode</td>
+<td>A name, abbreviation or acronym for the institution that is the originator of this data resource: the institution most directly involved in research, operations, data collection and/or data management that produced this dataset. This institution also appears as the lowest level (rightmost) code in the higherInstitutionCode term.</td>
+</tr>
+
+<tr>
+<td>ownerInstitutionCode</td>
+<td>ioosbiology:ownerInstitutionCode</td>
+<td>An abbreviation that identifies the institution, within the &ldquo;higherInstitutionCode&rdquo; hierarchy, that is considered the owner or controller of the data.</td>
+</tr>
+
+<tr>
+<td>collectionCode</td>
+<td>dwc:collectionCode</td>
+<td>An identifier for a subset(s) of data within the dataset, partitioned by methods or parameters meaningful to the data originators. The scheme and purpose for defining and partitioning by collectionCode within a dataset will be explained in metadata.</td>
+</tr>
+
+<tr>
+<td>catalogNumber</td>
+<td>dwc:catalogNumber</td>
+<td>A record identifier provided by the data originator. The identifier is controlled by the data originator and reflects the originator&rsquo;s practices of data administration. Special concerns about the identifier, such as whether it is unique, if it is persistent, or if it contains embedded information, can be addressed in metadata if applicable.</td>
+</tr>
+
+<tr>
+<td>observationDateTime</td>
+<td>dwc:eventDate</td>
+<td>The date and time of observation expressed in local time using the standard ISO 8601:2004(E). Where date and time are imprecise, for example, time not recorded or day not recorded, ISO 8601 practice is to omit the components of the date and time string for those unspecified details. Where date and time imprecision are more complex, for example, &ldquo;observed between 10am and noon&rdquo; or &ldquo;observed during the first half of July&rdquo;, supplement the use of ISO 8601 in this term with the use of verbatimObservationDateTime, nominalObservationDateTime, nominalObservationDateTimeUncertainty, and observationDateTimeAnnotation.</td>
+</tr>
+
+<tr>
+<td>observationTimeZone</td>
+<td>ioosbiology:observationTimeZone</td>
+<td>The time zone of the observation event, expressed as +/- hh:mm offset from UTC. While time zone information can also be included in the full ISO 8601 expression in observationDateTime, time zone is stored here for reliable use in nominalObservationDateTime and nominalObservationDateTimeUncertainty calculations. nominalObservationDateTime must be expressed in UTC.</td>
+</tr>
+
+<tr>
+<td>observationDateTimeAnnotation</td>
+<td>ioosbiology:observationDateTimeAnnotation</td>
+<td>observationDateTimeAnnotation explains information about date and time that may not be evident in verbatim, ISO 8601, or nominal forms of the date and time. For example, date and time may include uncertainty, such as time of day left null because time was not recorded. Howewver, data originators may be able to say that although time was not recorded, the observation is known to have been made between 8am and 5pm local time. observationDateTimeAnnotation can provide a concise explanation of this condition. observationDateTimeAnnotation can also provide explanation for how nominalObservationDateTimeUncertainty was determined.</td>
+</tr>
+
+<tr>
+<td>verbatimObservationDateTime</td>
+<td>dwc:verbatimEventDate</td>
+<td>The expression of the date and time of the observation in language identical to the originator&rsquo;s description of the date and time of observation. If the originator used a non-standard format or descriptive language for date and time, verbatimObservationDateTime contains this information.</td>
+</tr>
+
+<tr>
+<td>nominalObservationDateTime</td>
+<td>ioosbiology:nominalObservationDateTime</td>
+<td>In an IOOS service, this variable may appear simply with the name &ldquo;time&rdquo; or with the full name &ldquo;nominalObservationDateTime&rdquo;. This term identifies a specific instant chosen to represent the date and time of the observation, in Coordinated Universal Time (UTC). Both date and time are specified in this term in order to facilitate some searches and services that require resolution of events to this level of precision in time. Some observation events occur with uncertainty at the level of minutes, hours, or even days or more. A nominal event date and time is determined, even for observations with date and time uncertainty, for IOOS services to best represent the instant of the event. The companion term, nominalObservationDateTimeUncertainty, defines an interval of uncertainty that quantifies precision to correspond to the precision the original data recorded. Methods for determining nominal time and uncertainty will be documented in metadata, and they can be concisely explained in the &ldquo;obsrvationDateTimeAnnotation&rdquo; term.</td>
+</tr>
+
+<tr>
+<td>nominalObservationDateTimeUncertainty</td>
+<td>ioosbiology:nominalObservationDateTimeUncertainty</td>
+<td>In an IOOS service, this variable may appear simply with the name &ldquo;timeUncertainty&rdquo; or with the full name &ldquo;nominalObservationDateTimeUncertainty&rdquo;. This is the uncertainty in seconds before and after the nominalObservationDateTime, as a result of both precision and accuracy factors in determining observation time. This use of uncertainty makes the nominalObservationDateTime the mid-point in the range of uncertainty equal to twice the value of this term.</td>
+</tr>
+
+<tr>
+<td>latitude</td>
+<td>dwc:decimalLatitude</td>
+<td>The position of the observation north or south of the equator in decimal degrees. Latitudes north of the equator are positive and range to +90 degrees. Positions south of the equator are negative, and range to -90 degrees.</td>
+</tr>
+
+<tr>
+<td>longitude</td>
+<td>dwc:decimalLongitude</td>
+<td>The position of the observation east or west of the prime meridian in decimal degrees. Positions west of the prime meridian are negative, and range to -180. Positions east of the prime meridian are positive, and range to +180.</td>
+</tr>
+
+<tr>
+<td>coordinateUncertaintyInMeters</td>
+<td>dwc:coordinateUncertaintyInMeters</td>
+<td>An expression in meters of the overall uncertainty of the georeference provided by the latitude and longitude data. The uncertainty can combine issues of both accuracy and precision, and depends on the method the data originator used to determine coordinates. Methods and considerations that go into determinations of uncertainty will be described in metadata.</td>
+</tr>
+
+<tr>
+<td>geodeticDatum</td>
+<td>dwc:geodeticDatum</td>
+<td>The ellipsoid, geodetic datum, or spatial reference system used in decimalLatitude and decimalLongitude. IOOS preference is to provide all coordinates using EPSG:4326, also known as WGS 84. This element will identify the actual datum used, confirming WGS 84 or identifying what other datum applies.</td>
+</tr>
+
+<tr>
+<td>georeferencedBy</td>
+<td>dwc:georeferencedBy</td>
+<td>The name or other identifier of individual(s) or institution(s) that determined the georeference. Can be a list delimited by semicolon.</td>
+</tr>
+
+<tr>
+<td>georeferenceProtocol</td>
+<td>dwc:georeferenceProtocol</td>
+<td>A description or reference to the methods used to determine the spatial footprint, coordinates, and uncertainties.</td>
+</tr>
+
+<tr>
+<td>verbatimCoordinates</td>
+<td>dwc:verbatimCoordinates</td>
+<td>Record original coordinate information here (both latitude and longitude) for audit trail purposes where necessary.</td>
+</tr>
+
+<tr>
+<td>verbatimCoordinateSystem</td>
+<td>dwc:verbatimCoordinateSystem</td>
+<td>The spatial coordinate system for the verbatimLatitude and verbatimLongitude or the verbatimCoordinates.</td>
+</tr>
+
+<tr>
+<td>verbatimSRS</td>
+<td>dwc:verbatimSRS</td>
+<td>The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which coordinates given in verbatimCoordinates are based.</td>
+</tr>
+
+<tr>
+<td>minimumDepthInMeters</td>
+<td>dwc:minimumDepthInMeters</td>
+<td>The minimumDepthInMeters and maximumDepthInMeters express the depth range in which the observation was made. If the data originator provides a single depth measurement, the minimumDepthInMeters and maximumDepthInMeters show that measurement and will be equal. If no depth information is provided, both the min and max terms will be NULL.</td>
+</tr>
+
+<tr>
+<td>maximumDepthInMeters</td>
+<td>dwc:maximumDepthInMeters</td>
+<td>The minimumDepthInMeters and maximumDepthInMeters express the depth range in which the observation was made. If the data originator provides a single depth measurement, the minimumDepthInMeters and maximumDepthInMeters show that measurement and will be equal. If no depth information is provided, both the min and max terms will be NULL.</td>
+</tr>
+
+<tr>
+<td>basisOfRecord</td>
+<td>dwc:basisOfRecord</td>
+<td>Identifies the source of information or observation that generated the biological occurrence record.</td>
+</tr>
+
+<tr>
+<td>recordedBy</td>
+<td>dwc:recordedBy</td>
+<td>The name or other identifier of individual(s) or institution(s) responsible for making the observation and recording it in electronic form. Can be a list delimited by semicolon.</td>
+</tr>
+
+<tr>
+<td>vernacularName</td>
+<td>dwc:vernacularName</td>
+<td>A common or vernacular name for the taxon observed. A vernacularName is not required. Use of this term is at the discretion of the data originator. If this term is used, then authorities, references and procedures for making identifications and translating vernacular name to scientific name should be documented in metadata. The recommended practice is that vernacular names be used consistently within a dataset.</td>
+</tr>
+
+<tr>
+<td>scientificName</td>
+<td>dwc:scientificName</td>
+<td>The taxonomic identification of the observation as either 1) Genus and species (and subspecies if provided) in Latin binomial nomenclature form, or 2) the lowest-level taxonomic name to which the observation is identified, expressed in Latin form. scientificName is a required term. Authorities, references and procedures for making identifications should be documented in metadata.</td>
+</tr>
+
+<tr>
+<td>taxonRank</td>
+<td>dwc:taxonRank</td>
+<td>The taxonRank term is a companion to the scientificName term. taxonRank identifies the taxonomic level of the lowest-level name in the scientificName term.</td>
+</tr>
+
+<tr>
+<td>aphiaID</td>
+<td>ioosbiology:aphiaID</td>
+<td>A unique taxon identifier obtained by validation of the taxon name with the World Register of Marine Species (WoRMS), www.marinespecies.org.</td>
+</tr>
+
+<tr>
+<td>tsn</td>
+<td>ioosbiology:tsn</td>
+<td>A unique taxon identifier obtained by validation of the taxon name with the Integrated Taxonomic Information System (ITIS), www.itis.gov.</td>
+</tr>
+
+<tr>
+<td>individualCount</td>
+<td>dwc:individualCount</td>
+<td>The number of individuals represented in the observation record. Valid values include positive integers, zero, and null. Positive integers represent presence. If the observation record and metadata also contain other required information such as details about the sampling activity, individualCount can contribute to the abundance calculations. Null value for individualCount represents a record of presence, with quantity unspecified, and null values do not support abundance calculations. Zero value represents absence. Zero values for absence are only valid if methodology for establishing absence is recorded in metadata.</td>
+</tr>
+
+<tr>
+<td>sex</td>
+<td>dwc:sex</td>
+<td>The sex of biological individuals represented in the observation record. Vocabulary will be consistent within a dataset and will be explained in metadata. Methods of determination (where applicable) will be explained in metadata.</td>
+</tr>
+
+<tr>
+<td>lifeStage</td>
+<td>dwc:lifeStage</td>
+<td>An expression or description of age or lifestage of biological individual(s) in the observation record. Vocabulary will be consistent within a dataset and will be explained in metadata. Methods of determination (where applicable) will be explained in metadata.</td>
+</tr>
+
+<tr>
+<td>observedIndividualLengthInCm</td>
+<td>ioosbiology:observedIndividualLengthInCm</td>
+<td>If a single individual is observed and measured, record length in centimeters here.</td>
+</tr>
+
+<tr>
+<td>observedMeanLengthInCm</td>
+<td>ioosbiology:observedMeanLengthInCm</td>
+<td>If measuring more than one individual for aggregate length values, record mean length in centimeters here.</td>
+</tr>
+
+<tr>
+<td>observedMaxLengthInCm</td>
+<td>ioosbiology:observedMaxLengthInCm</td>
+<td>If measuring more than one individual for aggregate length values, record maximum length in centimeters here.</td>
+</tr>
+
+<tr>
+<td>observedMinLengthInCm</td>
+<td>ioosbiology:observedMinLengthInCm</td>
+<td>If measuring more than one individual for aggregate length values, record minimum length in centimeters here.</td>
+</tr>
+
+<tr>
+<td>lengthType</td>
+<td>ioosbiology:lengthType</td>
+<td>The type or method of length measurement used in this observation record, such as TL for total length, FL for fork length, SL for standard length.</td>
+</tr>
+
+<tr>
+<td>sampleID</td>
+<td>ioosbiology:sampleID</td>
+<td>A unique identifier for a unit of material that serves as a sample for a survey of biological occurrence (presence, absence or derived value). The definition of a sample and assignment of IDs is cojntroled by the data originator. If applicable, details about how sample ares are defined and IDs assigned will be provided in metadata.</td>
+</tr>
+
+<tr>
+<td>subsampleID</td>
+<td>ioosbiology:subsampleID</td>
+<td>If a sample is further divided by the data originator for purposes of organization, handling or analysis, and if the data originator wants to maintain the identity of the subsample, capture the ID of the subsample here. Explain in metadata if applicable.</td>
+</tr>
+
+<tr>
+<td>samplingProtocol</td>
+<td>dwc:samplingProtocol</td>
+<td>Information about the sampling method as defined by the data originator. Valid values include S for stationary, T for towed, D for diver swim. Contents or vacabulary used in this term will be used consistently in a dataset and will be explained in metadata. Additional information can be concatenated into the term, delimited by semicolon. More extensive discussion of sampling protocol, effort and conditions may be provided in metadata as needed.</td>
+</tr>
+
+<tr>
+<td>samplingEffort</td>
+<td>dwc:samplingEffort</td>
+<td>Information about the extent, duration or other variable aspects of the sampling activity, as conducted by the data originator, that occurred at the time of the sampling event. More than one type of effort information can be concatenated into this term, delimited by semicolon. Other terms are available in this terminology for some specific details of sampling effort, such as sample dimensions, that are expected to be frequently used in IOOS services. Use the samplingEffort term for additional effort information that is not addressed by other terms. More extensive discussion of sampling protocol, effort and conditions may be provided in metadata as needed.</td>
+</tr>
+
+<tr>
+<td>samplingConditions</td>
+<td>ioosbiology:samplingConditions</td>
+<td>Information about the state of the sampling location, determined by external factors such as weather, at the time of the sampling event. More than one type of information about conditions can be concatenated into this term, delimited by semicolon. Other terms are available in this terminology for some specific details of sampling conditions, such as habitat, bottomType, visibilty and temperature, that are expected to be frequently used in IOOS services. Use the samplingConditions term for additional information about conditions that is not addressed by other terms. More extensive discussion of sampling protocol, effort and conditions may be provided in metadata as needed.</td>
+</tr>
+
+<tr>
+<td>sampleShape</td>
+<td>ioosbiology:sampleShape</td>
+<td>The shape of the sample space in which the observation was made, such as R for rectangular, C for cylindrical.</td>
+</tr>
+
+<tr>
+<td>sampleWidthInMeters</td>
+<td>ioosbiology:sampleWidthInMeters</td>
+<td>The width in meters of the sample space in which the observation was made.</td>
+</tr>
+
+<tr>
+<td>sampleHeightInMeters</td>
+<td>ioosbiology:sampleHeightInMeters</td>
+<td>The length in meters of the sample space in which the observation was made.</td>
+</tr>
+
+<tr>
+<td>sampleRadiusInMeters</td>
+<td>ioosbiology:sampleRadiusInMeters</td>
+<td>The radius in meters of a cylindrical sample space.</td>
+</tr>
+
+<tr>
+<td>sampleAreaInSquareMeters</td>
+<td>ioosbiology:sampleAreaInSquareMeters</td>
+<td>The area in square meters, if projected vertically to a plane representing the ocean surface, of the sample space in which the observation was made.</td>
+</tr>
+
+<tr>
+<td>sampleVolumeInCubicMeters</td>
+<td>ioosbiology:sampleVolumeInCubicMeters</td>
+<td>The volume in cubic meters of the sample space in which the observation was made.</td>
+</tr>
+
+<tr>
+<td>visibilityInMeters</td>
+<td>ioosbiology:visibilityInMeters</td>
+<td>Visibility through the water column in meters.</td>
+</tr>
+
+<tr>
+<td>visibilityType</td>
+<td>ioosbiology:visibilityType</td>
+<td>The direction of estimated visibility, horizontal or vertical.</td>
+</tr>
+
+<tr>
+<td>waterTemperatureInCelsius</td>
+<td>ioosbiology:waterTemperatureInCelsius</td>
+<td>The temperature of the water at the time of the observation, expressed in degrees Celsius.</td>
+</tr>
+
+<tr>
+<td>habitat</td>
+<td>dwc:habitat</td>
+<td>A description or identifier of general information about the habitat in which the observation was made. Vocabulary will be consistent within a dataset and will be explained in metadata. Methods of determination (where applicable) will be explained in metadata.</td>
+</tr>
+
+<tr>
+<td>bottomType</td>
+<td>ioosbiology:bottomType</td>
+<td>A description or identifier of general information about the sea floor at the coordinates or locality where the observation was made. Vocabulary will be consistent within a dataset and will be explained in metadata. Methods of determination (where applicable) will be explained in metadata.</td>
+</tr>
+
+<tr>
+<td>quantificationVocabulary</td>
+<td>ioosbiology:quantificationVocabulary</td>
+<td>The names for dervied values, referred to as &ldquo;quantification&rdquo;, can be drawn from a controlled vocabulary or vocabularies of quantification names. Or they can be reported in IOOS services using the verbatim name given by the data originator. Either the name of a controlled vocabulary or the word &ldquo;verbatim&rdquo; should be used in this term. Either way, within a dataset, both verbatim and vocabulary names must be used consistently, and explained in metadata.</td>
+</tr>
+
+<tr>
+<td>quantificationName</td>
+<td>dwc:measurementType</td>
+<td>A name for a derived value or processed data about the occurrence, for example, &ldquo;Biomass&rdquo;. The word used in this terminology for such information is &ldquo;quantification&rdquo;, rather than &ldquo;abundance&rdquo;, because &ldquo;abundance&rdquo; may have specific methodological immplications in biology. In this example, biomass would not be obtained at survey time, rather biomass would be calculated from input data that was obtained at survey time, combined with a biomass calculation methodology. This term is used along with companion terms for quantification value, units, uncertainty, method, and determination details. It is suggested that names for derived values be more specific than &ldquo;Biomass&rdquo;, because many institutions will develop biomass information using diverse methods. Suggested practice is to include some more specific reference(s) in the quantification name, such as insitution, survey, date or other specifics. For example, &ldquo;Biomass-PIFSC-2011&rdquo;, and explain naming in metadata.</td>
+</tr>
+
+<tr>
+<td>quantificationValue</td>
+<td>dwc:measurementValue</td>
+<td>The value of the derived information product, such as the numerical value for biomass. This term does not include units. Units are contained in another term.</td>
+</tr>
+
+<tr>
+<td>quantificationUnit</td>
+<td>dwc:measurementUnit</td>
+<td>The units in which the value expresses the quantification, for example, &ldquo;kg/m^2 surface&rdquo; or &ldquo;kilograms per square meter of ocean surface&rdquo;.</td>
+</tr>
+
+<tr>
+<td>quantificationUncertainty</td>
+<td>dwc:measurementAccuracy</td>
+<td>An estimate of the uncertainty, positive or negative (+/-) offset of the stated value, that expresses the uncertainty of the value as calculated and reported. Note that the expression in this term can combine both accuracy and precision considerations to a more general estimate, uncertainty, hence the slightly different name for this term from compared to the Darwin Core (dwc) reference term.</td>
+</tr>
+
+<tr>
+<td>quantificationDeterminedDate</td>
+<td>dwc:measurementDeterminedDate</td>
+<td>The date the quantification was determined. Can be different from the observation date.</td>
+</tr>
+
+<tr>
+<td>quantificationDeterminedBy</td>
+<td>dwc:measurementDeterminedBy</td>
+<td>The name or ID of person(s) or institution(s) that determined the quantification.</td>
+</tr>
+
+<tr>
+<td>quantificationMethod</td>
+<td>dwc:measurementMethod</td>
+<td>A reference to the method used to determine the quantification. This will be different from the method used to make the observation of biological occurrence; it will be the companion calucation method that followed the observation method. Quantification information is expected to be only useful if method is sufficiently documented, so this term is vitally important for use of quantification terms for derived values. This term can contain a code or other abbreviated reference to a method. In all cases quantificationMethod should be explained in metadata and supporting publications or related resources identified.</td>
+</tr>
+
+<tr>
+<td>waterBody</td>
+<td>dwc:waterBody</td>
+<td>The name of the water body in which the observation was made. For marine data, this is the ocean name. If there is a more specific named region, such as a bay or reef, or sector of the ocean (for example, northwest Pacific), add the regional name after the ocean name, separated by a semicolon. Note that the locality term will contain the most specific name, such as a pier or other named feature, so that lowest level of detail is not included in waterbody. The waterbody term is for the ocean and any named intermediate geography such as a region.</td>
+</tr>
+
+<tr>
+<td>islandGroup</td>
+<td>dwc:islandGroup</td>
+<td>The name of an island group associated with the location where the observation was made.</td>
+</tr>
+
+<tr>
+<td>island</td>
+<td>dwc:island</td>
+<td>The name an island associated with the location where the observation was made.</td>
+</tr>
+
+<tr>
+<td>locality</td>
+<td>dwc:locality</td>
+<td>The locality is the most specific named place to identify the location of the observation. Many marine data rely strictly on geographic coordinates, so the locality term may be null. If a locality is used, it may be a specific location or feature name, such as &ldquo;Pier 39&rdquo; or &ldquo;Atafu Atoll&rdquo;, or it may be a descriptive phrase, such as &ldquo;a tidal pool 1500 meters north of Pier 39&rdquo;. Note that in marine observations, the latitude and longitude may be more precise than any named place would suggest, because the coordinates often come from navigation of GPS systems. Place names can be secondary locality identifiers and thus less precise than coordinates.</td>
+</tr>
+
+<tr>
+<td>country</td>
+<td>dwc:country</td>
+<td>The name of the country in which the observation location ocurs.</td>
+</tr>
+
+<tr>
+<td>stateProvince</td>
+<td>dwc:stateProvince</td>
+<td>The name of the state or province in which the observation location ocurs. Such geographic named locations may not be available or applicable for marine data, and acordingly the use of this term is optional. In some cases such jurisdiction identification may be crucial for data attribution, management and/or use, so this term is retained in the terminology for cases where it may be essential.</td>
+</tr>
+
+<tr>
+<td>county</td>
+<td>dwc:county</td>
+<td>The name of the county or other comparable geographic unit in which the observation location ocurs. Such geographic named locations may not be available or applicable for marine data, and acordingly the use of this term is optional. In some cases such jurisdiction identification may be crucial for data attribution, management and/or use, so this term is retained in the terminology for cases where it may be essential.</td>
+</tr>
+
+<tr>
+<td>municipality</td>
+<td>dwc:municipality</td>
+<td>The name of the municipality in which the observation location ocurs. Such geographic named locations may not be available or applicable for marine data, and acordingly the use of this term is optional. In some cases such jurisdiction identification may be crucial for data attribution, management and/or use, so this term is retained in the terminology for cases where it may be essential.</td>
+</tr>
+
+<tr>
+<td>geodeticDatum</td>
+<td>dwc:geodeticDatum</td>
+<td>The ellipsoid, geodetic datum, or spatial reference system used in decimalLatitude and decimalLongitude. IOOS preference is to provide all coordinates using EPSG:4326, also known as WGS 84. This element will identify the actual datum used, confirming WGS 84 or identifying what other datum applies.</td>
+</tr>
+
+<tr>
+<td>kingdom</td>
+<td>dwc:kingdom</td>
+<td>The full scientific name of the kingdom in which the taxon is classified.</td>
+</tr>
+
+<tr>
+<td>phylum</td>
+<td>dwc:phylum</td>
+<td>The full scientific name of the phylum in which the taxon is classified.</td>
+</tr>
+
+<tr>
+<td>class</td>
+<td>dwc:class</td>
+<td>The full scientific name of the class in which the taxon is classified.</td>
+</tr>
+
+<tr>
+<td>order</td>
+<td>dwc:order</td>
+<td>The full scientific name of the order in which the taxon is classified.</td>
+</tr>
+
+<tr>
+<td>family</td>
+<td>dwc:family</td>
+<td>The full scientific name of the family in which the taxon is classified.</td>
+</tr>
+
+<tr>
+<td>genus</td>
+<td>dwc:genus</td>
+<td>The full scientific name of the genus in which the taxon is classified.</td>
+</tr>
+
+<tr>
+<td>subgenus</td>
+<td>dwc:subgenus</td>
+<td>The full scientific name of the subgenus in which the taxon is classified. Values should include the genus to avoid homonym confusion.</td>
+</tr>
+
+<tr>
+<td>species</td>
+<td>dwc:specificEpithet</td>
+<td>The full scientific name of the species in which the taxon is classified. If a subspecies identification is provided, add the subspecies name after the species name separated by a space.</td>
+</tr>
+
+<tr>
+<td>infraspecificEpithet</td>
+<td>dwc:infraspecificEpithet</td>
+<td>The full scientific name of the subspecies, variant or other finer level identification.</td>
+</tr>
+
+<tr>
+<td>scientificNameAuthorship</td>
+<td>dwc:scientificNameAuthorship</td>
+<td>The authorship information for the scientificName.</td>
+</tr>
+
+<tr>
+<td>taxonRemarks</td>
+<td>dwc:taxonRemarks</td>
+<td>Comments or notes about the taxon or name.</td>
+</tr>
+
+<tr>
+<td>identifiedBy</td>
+<td>dwc:identifiedBy</td>
+<td>The name or other identifier of individual(s) or institution(s) that assigned the taxonomic name. Can be a list delimited by semicolon.</td>
+</tr>
+
+<tr>
+<td>identificationDate</td>
+<td>dwc:eventDate</td>
+<td>The date the identification on this record was made, expressed in ISO 8601 date format.</td>
+</tr>
+
+<tr>
+<td>identificationQualifier</td>
+<td>dwc:identificationQualifier</td>
+<td>A brief phrase or a standard term (&ldquo;cf.&rdquo;, &ldquo;aff.&rdquo;) to express the determiner&rsquo;s doubts about the Identification.</td>
+</tr>
+
+<tr>
+<td>identificationRemarks</td>
+<td>dwc:identificationRemarks</td>
+<td>Comments or notes about the identification.</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="toc_11">&nbsp; &nbsp; Schema (XSD)</h3>
+
+<pre><code>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;!-- version 0.9 2011/11/30 Philip Goldstein (University of Colorado, Boulder)
+--&gt;
+&lt;?xml-stylesheet href='ioosxsdstyle.xsl' type='text/xsl'?&gt;
+&lt;xsd:schema xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:dwc=&quot;http://rs.tdwg.org/dwc/terms/&quot;
+    xmlns:dcterms=&quot;http://purl.org/dc/terms/&quot; xmlns:ioosbiology=&quot;http://domain.gov/folder/terms/&quot;
+    targetNamespace=&quot;http://domain.gov/folder/terms/&quot;&gt;
+
+    &lt;!--  Administration and identification terms  --&gt;
+
+    &lt;xsd:element name=&quot;modified&quot; ref=&quot;dcterms:modified&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The most recent date the data originator updated or verified the
+                record, expressed in the standard ISO 8601:2004(E). Can be the record creation date
+                or date of subsequent update or verifiction. If the data originator does not record
+                or provide this information, IOOS will populate this date with the date the record
+                became available to IOOS.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;verbatimModified&quot; ref=&quot;ioosbiology:verbatimModified&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The date and time value of the &quot;modified&quot; term, recorded in the exact
+                format that the data originator provided it, for purposes of audit trail, since IOOS
+                will convert this to ISO 8601:2004(E) for operational purposes.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;datasetID&quot; ref=&quot;dwc:datasetID&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;An abbreviated name for the dataset that contains this occurrence
+                record. This may also be the technical name for the data resource in a database or
+                web service. The datasetID occurs on each row to preserve record identity in case
+                records served by the resource become distributed to other resources or
+                applications.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;datasetName&quot; ref=&quot;dwc:datasetName&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;This is a long-form name for the dataset, more explanatory than the
+                datasetID. The datasetName will read as a recognizable title that reflects
+                information about the dataset. Suggested information to include in the datasetName
+                can refer to originator, content, purpose, method, geography, or other
+                characteristics of the dataset. This datasetName term in the data record will match
+                the dataset name in metadata.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;higherInstitutionCode&quot; ref=&quot;ioosbiology:higherInstitutionCode&quot;
+        type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;Institution codes, in the form of names, abbreviation or acronyms,
+                separated by semicolons, that define the hierarchy of institutions within which the
+                data originator operates. Includes the originating institution as the lowest level
+                (rightmost) code. All abbreviations or acronyms for institutions in all levels of
+                the hierarchy will be explained in dataset metadata. &lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;institutionCode&quot; ref=&quot;dwc:institutionCode&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;A name, abbreviation or acronym for the institution that is the
+                originator of this data resource: the institution most directly involved in
+                research, operations, data collection and/or data management that produced this
+                dataset. This institution also appears as the lowest level (rightmost) code in the
+                higherInstitutionCode term.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;ownerInstitutionCode&quot; ref=&quot;ioosbiology:ownerInstitutionCode&quot;
+        type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;An abbreviation that identifies the institution, within the
+                &quot;higherInstitutionCode&quot; hierarchy, that is considered the owner or controller of the
+                data.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;collectionCode&quot; ref=&quot;dwc:collectionCode&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;An identifier for a subset(s) of data within the dataset, partitioned
+                by methods or parameters meaningful to the data originators. The scheme and purpose
+                for defining and partitioning by collectionCode within a dataset will be explained
+                in metadata.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;catalogNumber&quot; ref=&quot;dwc:catalogNumber&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;A record identifier provided by the data originator. The identifier
+                is controlled by the data originator and reflects the originator's practices of data
+                administration. Special concerns about the identifier, such as whether it is unique,
+                if it is persistent, or if it contains embedded information, can be addressed in
+                metadata if applicable.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;!--  Date and time terms  --&gt;
+
+    &lt;xsd:element name=&quot;observationDateTime&quot; ref=&quot;dwc:eventDate&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The date and time of observation expressed in local time using the
+                standard ISO 8601:2004(E). Where date and time are imprecise, for example, time not
+                recorded or day not recorded, ISO 8601 practice is to omit the components of the
+                date and time string for those unspecified details. Where date and time imprecision
+                are more complex, for example, &quot;observed between 10am and noon&quot; or &quot;observed during
+                the first half of July&quot;, supplement the use of ISO 8601 in this term with the use of
+                verbatimObservationDateTime, nominalObservationDateTime,
+                nominalObservationDateTimeUncertainty, and
+                observationDateTimeAnnotation.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;observationTimeZone&quot; ref=&quot;ioosbiology:observationTimeZone&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The time zone of the observation event, expressed as +/- hh:mm offset
+                from UTC. While time zone information can also be included in the full ISO 8601
+                expression in observationDateTime, time zone is stored here for reliable use in
+                nominalObservationDateTime and nominalObservationDateTimeUncertainty calculations.
+                nominalObservationDateTime must be expressed in UTC.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;observationDateTimeAnnotation&quot;
+        ref=&quot;ioosbiology:observationDateTimeAnnotation&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;observationDateTimeAnnotation explains information about date and
+                time that may not be evident in verbatim, ISO 8601, or nominal forms of the date and
+                time. For example, date and time may include uncertainty, such as time of day left
+                null because time was not recorded. Howewver, data originators may be able to say
+                that although time was not recorded, the observation is known to have been made
+                between 8am and 5pm local time. observationDateTimeAnnotation can provide a concise
+                explanation of this condition. observationDateTimeAnnotation can also provide
+                explanation for how nominalObservationDateTimeUncertainty was
+                determined.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;verbatimObservationDateTime&quot; ref=&quot;dwc:verbatimEventDate&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The expression of the date and time of the observation in language
+                identical to the originator's description of the date and time of observation. If
+                the originator used a non-standard format or descriptive language for date and time,
+                verbatimObservationDateTime contains this information.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;nominalObservationDateTime&quot; ref=&quot;ioosbiology:nominalObservationDateTime&quot;
+        type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;In an IOOS service, this variable may appear simply with the name
+                &quot;time&quot; or with the full name &quot;nominalObservationDateTime&quot;. This term identifies a
+                specific instant chosen to represent the date and time of the observation, in
+                Coordinated Universal Time (UTC). Both date and time are specified in this term in
+                order to facilitate some searches and services that require resolution of events to
+                this level of precision in time. Some observation events occur with uncertainty at
+                the level of minutes, hours, or even days or more. A nominal event date and time is
+                determined, even for observations with date and time uncertainty, for IOOS services
+                to best represent the instant of the event. The companion term,
+                nominalObservationDateTimeUncertainty, defines an interval of uncertainty that
+                quantifies precision to correspond to the precision the original data recorded.
+                Methods for determining nominal time and uncertainty will be documented in metadata,
+                and they can be concisely explained in the &quot;obsrvationDateTimeAnnotation&quot;
+                term.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;nominalObservationDateTimeUncertainty&quot;
+        ref=&quot;ioosbiology:nominalObservationDateTimeUncertainty&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;In an IOOS service, this variable may appear simply with the name
+                &quot;timeUncertainty&quot; or with the full name &quot;nominalObservationDateTimeUncertainty&quot;.
+                This is the uncertainty in seconds before and after the nominalObservationDateTime,
+                as a result of both precision and accuracy factors in determining observation time.
+                This use of uncertainty makes the nominalObservationDateTime the mid-point in the
+                range of uncertainty equal to twice the value of this term.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;!--  Georeference (coordinate geography) terms  --&gt;
+
+    &lt;xsd:element name=&quot;latitude&quot; ref=&quot;dwc:decimalLatitude&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The position of the observation north or south of the equator in
+                decimal degrees. Latitudes north of the equator are positive and range to +90
+                degrees. Positions south of the equator are negative, and range to -90
+                degrees.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;longitude&quot; ref=&quot;dwc:decimalLongitude&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The position of the observation east or west of the prime meridian in
+                decimal degrees. Positions west of the prime meridian are negative, and range to
+                -180. Positions east of the prime meridian are positive, and range to
+                +180.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;coordinateUncertaintyInMeters&quot; ref=&quot;dwc:coordinateUncertaintyInMeters&quot;
+        type=&quot;xsd:decimal&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;An expression in meters of the overall uncertainty of the
+                georeference provided by the latitude and longitude data. The uncertainty can
+                combine issues of both accuracy and precision, and depends on the method the data
+                originator used to determine coordinates. Methods and considerations that go into
+                determinations of uncertainty will be described in metadata.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;geodeticDatum&quot; ref=&quot;dwc:geodeticDatum&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The ellipsoid, geodetic datum, or spatial reference system used in
+                decimalLatitude and decimalLongitude. IOOS preference is to provide all coordinates
+                using EPSG:4326, also known as WGS 84. This element will identify the actual datum
+                used, confirming WGS 84 or identifying what other datum applies.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;georeferencedBy&quot; ref=&quot;dwc:georeferencedBy&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The name or other identifier of individual(s) or institution(s) that
+                determined the georeference. Can be a list delimited by
+                semicolon.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;georeferenceProtocol&quot; ref=&quot;dwc:georeferenceProtocol&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;A description or reference to the methods used to determine the
+                spatial footprint, coordinates, and uncertainties.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;verbatimCoordinates&quot; ref=&quot;dwc:verbatimCoordinates&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;Record original coordinate information here (both latitude and
+                longitude) for audit trail purposes where necessary.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;verbatimCoordinateSystem&quot; ref=&quot;dwc:verbatimCoordinateSystem&quot;
+        type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The spatial coordinate system for the verbatimLatitude and
+                verbatimLongitude or the verbatimCoordinates.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;verbatimSRS&quot; ref=&quot;dwc:verbatimSRS&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The ellipsoid, geodetic datum, or spatial reference system (SRS) upon
+                which coordinates given in verbatimCoordinates are based.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;!--  Depth terms  --&gt;
+
+    &lt;xsd:element name=&quot;minimumDepthInMeters&quot; ref=&quot;dwc:minimumDepthInMeters&quot; type=&quot;xsd:decimal&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The minimumDepthInMeters and maximumDepthInMeters express the depth
+                range in which the observation was made. If the data originator provides a single
+                depth measurement, the minimumDepthInMeters and maximumDepthInMeters show that
+                measurement and will be equal. If no depth information is provided, both the min and
+                max terms will be NULL.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;maximumDepthInMeters&quot; ref=&quot;dwc:maximumDepthInMeters&quot; type=&quot;xsd:decimal&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The minimumDepthInMeters and maximumDepthInMeters express the depth
+                range in which the observation was made. If the data originator provides a single
+                depth measurement, the minimumDepthInMeters and maximumDepthInMeters show that
+                measurement and will be equal. If no depth information is provided, both the min and
+                max terms will be NULL.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;!--  Record origination terms  --&gt;
+
+    &lt;xsd:element name=&quot;basisOfRecord&quot; ref=&quot;dwc:basisOfRecord&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;Identifies the source of information or observation that generated
+                the biological occurrence record.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;recordedBy&quot; ref=&quot;dwc:recordedBy&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The name or other identifier of individual(s) or institution(s)
+                responsible for making the observation and recording it in electronic form. Can be a
+                list delimited by semicolon.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;!--  Taxonomic identification terms  --&gt;
+
+    &lt;xsd:element name=&quot;vernacularName&quot; ref=&quot;dwc:vernacularName&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;A common or vernacular name for the taxon observed. A vernacularName
+                is not required. Use of this term is at the discretion of the data originator. If
+                this term is used, then authorities, references and procedures for making
+                identifications and translating vernacular name to scientific name should be
+                documented in metadata. The recommended practice is that vernacular names be used
+                consistently within a dataset.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;scientificName&quot; ref=&quot;dwc:scientificName&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The taxonomic identification of the observation as either 1) Genus
+                and species (and subspecies if provided) in Latin binomial nomenclature form, or 2)
+                the lowest-level taxonomic name to which the observation is identified, expressed in
+                Latin form. scientificName is a required term. Authorities, references and
+                procedures for making identifications should be documented in
+                metadata.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;taxonRank&quot; ref=&quot;dwc:taxonRank&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The taxonRank term is a companion to the scientificName term.
+                taxonRank identifies the taxonomic level of the lowest-level name in the
+                scientificName term.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;aphiaID&quot; ref=&quot;ioosbiology:aphiaID&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;A unique taxon identifier obtained by validation of the taxon name
+                with the World Register of Marine Species (WoRMS),
+                www.marinespecies.org.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;tsn&quot; ref=&quot;ioosbiology:tsn&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;A unique taxon identifier obtained by validation of the taxon name
+                with the Integrated Taxonomic Information System (ITIS),
+                www.itis.gov.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;!--  Occurrence detail terms  --&gt;
+
+    &lt;xsd:element name=&quot;individualCount&quot; ref=&quot;dwc:individualCount&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The number of individuals represented in the observation record.
+                Valid values include positive integers, zero, and null. Positive integers represent
+                presence. If the observation record and metadata also contain other required
+                information such as details about the sampling activity, individualCount can
+                contribute to the abundance calculations. Null value for individualCount represents
+                a record of presence, with quantity unspecified, and null values do not support
+                abundance calculations. Zero value represents absence. Zero values for absence are
+                only valid if methodology for establishing absence is recorded in
+                metadata.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;sex&quot; ref=&quot;dwc:sex&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The sex of biological individuals represented in the observation
+                record. Vocabulary will be consistent within a dataset and will be explained in
+                metadata. Methods of determination (where applicable) will be explained in
+                metadata.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;lifeStage&quot; ref=&quot;dwc:lifeStage&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;An expression or description of age or lifestage of biological
+                individual(s) in the observation record. Vocabulary will be consistent within a
+                dataset and will be explained in metadata. Methods of determination (where
+                applicable) will be explained in metadata.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;observedIndividualLengthInCm&quot; ref=&quot;ioosbiology:observedIndividualLengthInCm&quot;
+        type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;If a single individual is observed and measured, record length in
+                centimeters here.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;observedMeanLengthInCm&quot; ref=&quot;ioosbiology:observedMeanLengthInCm&quot;
+        type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;If measuring more than one individual for aggregate length values,
+                record mean length in centimeters here.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;observedMaxLengthInCm&quot; ref=&quot;ioosbiology:observedMaxLengthInCm&quot;
+        type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;If measuring more than one individual for aggregate length values,
+                record maximum length in centimeters here.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;observedMinLengthInCm&quot; ref=&quot;ioosbiology:observedMinLengthInCm&quot;
+        type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;If measuring more than one individual for aggregate length values,
+                record minimum length in centimeters here.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;lengthType&quot; ref=&quot;ioosbiology:lengthType&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The type or method of length measurement used in this observation
+                record, such as TL for total length, FL for fork length, SL for standard
+                length.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;!-- Sample identification and sampling event terms  --&gt;
+
+    &lt;xsd:element name=&quot;sampleID&quot; ref=&quot;ioosbiology:sampleID&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;A unique identifier for a unit of material that serves as a sample
+                for a survey of biological occurrence (presence, absence or derived value). The
+                definition of a sample and assignment of IDs is cojntroled by the data originator.
+                If applicable, details about how sample ares are defined and IDs assigned will be
+                provided in metadata.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;subsampleID&quot; ref=&quot;ioosbiology:subsampleID&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;If a sample is further divided by the data originator for purposes of
+                organization, handling or analysis, and if the data originator wants to maintain the
+                identity of the subsample, capture the ID of the subsample here. Explain in metadata
+                if applicable.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;samplingProtocol&quot; ref=&quot;dwc:samplingProtocol&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;Information about the sampling method as defined by the data
+                originator. Valid values include S for stationary, T for towed, D for diver swim.
+                Contents or vacabulary used in this term will be used consistently in a dataset and
+                will be explained in metadata. Additional information can be concatenated into the
+                term, delimited by semicolon. More extensive discussion of sampling protocol, effort
+                and conditions may be provided in metadata as needed.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;samplingEffort&quot; ref=&quot;dwc:samplingEffort&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;Information about the extent, duration or other variable aspects of
+                the sampling activity, as conducted by the data originator, that occurred at the
+                time of the sampling event. More than one type of effort information can be
+                concatenated into this term, delimited by semicolon. Other terms are available in
+                this terminology for some specific details of sampling effort, such as sample
+                dimensions, that are expected to be frequently used in IOOS services. Use the
+                samplingEffort term for additional effort information that is not addressed by other
+                terms. More extensive discussion of sampling protocol, effort and conditions may be
+                provided in metadata as needed.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;samplingConditions&quot; ref=&quot;ioosbiology:samplingConditions&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;Information about the state of the sampling location, determined by
+                external factors such as weather, at the time of the sampling event. More than one
+                type of information about conditions can be concatenated into this term, delimited
+                by semicolon. Other terms are available in this terminology for some specific
+                details of sampling conditions, such as habitat, bottomType, visibilty and
+                temperature, that are expected to be frequently used in IOOS services. Use the
+                samplingConditions term for additional information about conditions that is not
+                addressed by other terms. More extensive discussion of sampling protocol, effort and
+                conditions may be provided in metadata as needed.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;sampleShape&quot; ref=&quot;ioosbiology:sampleShape&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The shape of the sample space in which the observation was made, such
+                as R for rectangular, C for cylindrical.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;sampleWidthInMeters&quot; ref=&quot;ioosbiology:sampleWidthInMeters&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The width in meters of the sample space in which the observation was
+                made.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;sampleHeightInMeters&quot; ref=&quot;ioosbiology:sampleHeightInMeters&quot;
+        type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The length in meters of the sample space in which the observation was
+                made.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;sampleRadiusInMeters&quot; ref=&quot;ioosbiology:sampleRadiusInMeters&quot;
+        type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The radius in meters of a cylindrical sample
+                space.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;sampleAreaInSquareMeters&quot; ref=&quot;ioosbiology:sampleAreaInSquareMeters&quot;
+        type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The area in square meters, if projected vertically to a plane
+                representing the ocean surface, of the sample space in which the observation was
+                made.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;sampleVolumeInCubicMeters&quot; ref=&quot;ioosbiology:sampleVolumeInCubicMeters&quot;
+        type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The volume in cubic meters of the sample space in which the
+                observation was made.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;visibilityInMeters&quot; ref=&quot;ioosbiology:visibilityInMeters&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;Visibility through the water column in meters.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;visibilityType&quot; ref=&quot;ioosbiology:visibilityType&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The direction of estimated visibility, horizontal or
+                vertical.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;waterTemperatureInCelsius&quot; ref=&quot;ioosbiology:waterTemperatureInCelsius&quot;
+        type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The temperature of the water at the time of the observation,
+                expressed in degrees Celsius.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;habitat&quot; ref=&quot;dwc:habitat&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;A description or identifier of general information about the habitat
+                in which the observation was made. Vocabulary will be consistent within a dataset
+                and will be explained in metadata. Methods of determination (where applicable) will
+                be explained in metadata.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;bottomType&quot; ref=&quot;ioosbiology:bottomType&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;A description or identifier of general information about the sea
+                floor at the coordinates or locality where the observation was made. Vocabulary will
+                be consistent within a dataset and will be explained in metadata. Methods of
+                determination (where applicable) will be explained in metadata.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;!-- Quantification terms  --&gt;
+
+    &lt;xsd:element name=&quot;quantificationVocabulary&quot; ref=&quot;ioosbiology:quantificationVocabulary&quot;
+        type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The names for dervied values, referred to as &quot;quantification&quot;, can be
+                drawn from a controlled vocabulary or vocabularies of quantification names. Or they
+                can be reported in IOOS services using the verbatim name given by the data
+                originator. Either the name of a controlled vocabulary or the word &quot;verbatim&quot; should
+                be used in this term. Either way, within a dataset, both verbatim and vocabulary
+                names must be used consistently, and explained in metadata.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;quantificationName&quot; ref=&quot;dwc:measurementType&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;A name for a derived value or processed data about the occurrence,
+                for example, &quot;Biomass&quot;. The word used in this terminology for such information is
+                &quot;quantification&quot;, rather than &quot;abundance&quot;, because &quot;abundance&quot; may have specific
+                methodological immplications in biology. In this example, biomass would not be
+                obtained at survey time, rather biomass would be calculated from input data that was
+                obtained at survey time, combined with a biomass calculation methodology. This term
+                is used along with companion terms for quantification value, units, uncertainty,
+                method, and determination details. It is suggested that names for derived values be
+                more specific than &quot;Biomass&quot;, because many institutions will develop biomass
+                information using diverse methods. Suggested practice is to include some more
+                specific reference(s) in the quantification name, such as insitution, survey, date
+                or other specifics. For example, &quot;Biomass-PIFSC-2011&quot;, and explain naming in
+                metadata. &lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;quantificationValue&quot; ref=&quot;dwc:measurementValue&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The value of the derived information product, such as the numerical
+                value for biomass. This term does not include units. Units are contained in another
+                term.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;quantificationUnit&quot; ref=&quot;dwc:measurementUnit&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The units in which the value expresses the quantification, for
+                example, &quot;kg/m^2 surface&quot; or &quot;kilograms per square meter of ocean
+                surface&quot;.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;quantificationUncertainty&quot; ref=&quot;dwc:measurementAccuracy&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;An estimate of the uncertainty, positive or negative (+/-) offset of
+                the stated value, that expresses the uncertainty of the value as calculated and
+                reported. Note that the expression in this term can combine both accuracy and
+                precision considerations to a more general estimate, uncertainty, hence the slightly
+                different name for this term from compared to the Darwin Core (dwc) reference
+                term.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;quantificationDeterminedDate&quot; ref=&quot;dwc:measurementDeterminedDate&quot;
+        type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The date the quantification was determined. Can be different from the
+                observation date.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;quantificationDeterminedBy&quot; ref=&quot;dwc:measurementDeterminedBy&quot;
+        type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The name or ID of person(s) or institution(s) that determined the
+                quantification.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;quantificationMethod&quot; ref=&quot;dwc:measurementMethod&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;A reference to the method used to determine the quantification. This
+                will be different from the method used to make the observation of biological
+                occurrence; it will be the companion calucation method that followed the observation
+                method. Quantification information is expected to be only useful if method is
+                sufficiently documented, so this term is vitally important for use of quantification
+                terms for derived values. This term can contain a code or other abbreviated
+                reference to a method. In all cases quantificationMethod should be explained in
+                metadata and supporting publications or related resources
+                identified.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;!-- Named geography terms  --&gt;
+
+    &lt;xsd:element name=&quot;waterBody&quot; ref=&quot;dwc:waterBody&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The name of the water body in which the observation was made. For
+                marine data, this is the ocean name. If there is a more specific named region, such
+                as a bay or reef, or sector of the ocean (for example, northwest Pacific), add the
+                regional name after the ocean name, separated by a semicolon. Note that the locality
+                term will contain the most specific name, such as a pier or other named feature, so
+                that lowest level of detail is not included in waterbody. The waterbody term is for
+                the ocean and any named intermediate geography such as a region.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;islandGroup&quot; ref=&quot;dwc:islandGroup&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The name of an island group associated with the location where the
+                observation was made.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;island&quot; ref=&quot;dwc:island&quot; type=&quot;xsd:&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The name an island associated with the location where the observation
+                was made.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;locality&quot; ref=&quot;dwc:locality&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The locality is the most specific named place to identify the
+                location of the observation. Many marine data rely strictly on geographic
+                coordinates, so the locality term may be null. If a locality is used, it may be a
+                specific location or feature name, such as &quot;Pier 39&quot; or &quot;Atafu Atoll&quot;, or it may be
+                a descriptive phrase, such as &quot;a tidal pool 1500 meters north of Pier 39&quot;. Note that
+                in marine observations, the latitude and longitude may be more precise than any
+                named place would suggest, because the coordinates often come from navigation of GPS
+                systems. Place names can be secondary locality identifiers and thus less precise
+                than coordinates.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;country&quot; ref=&quot;dwc:country&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The name of the country in which the observation location
+                ocurs.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;stateProvince&quot; ref=&quot;dwc:stateProvince&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The name of the state or province in which the observation location
+                ocurs. Such geographic named locations may not be available or applicable for marine
+                data, and acordingly the use of this term is optional. In some cases such
+                jurisdiction identification may be crucial for data attribution, management and/or
+                use, so this term is retained in the terminology for cases where it may be
+                essential.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;county&quot; ref=&quot;dwc:county&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The name of the county or other comparable geographic unit in which
+                the observation location ocurs. Such geographic named locations may not be available
+                or applicable for marine data, and acordingly the use of this term is optional. In
+                some cases such jurisdiction identification may be crucial for data attribution,
+                management and/or use, so this term is retained in the terminology for cases where
+                it may be essential.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;municipality&quot; ref=&quot;dwc:municipality&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The name of the municipality in which the observation location ocurs.
+                Such geographic named locations may not be available or applicable for marine data,
+                and acordingly the use of this term is optional. In some cases such jurisdiction
+                identification may be crucial for data attribution, management and/or use, so this
+                term is retained in the terminology for cases where it may be
+                essential.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;geodeticDatum&quot; ref=&quot;dwc:geodeticDatum&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The ellipsoid, geodetic datum, or spatial reference system used in
+                decimalLatitude and decimalLongitude. IOOS preference is to provide all coordinates
+                using EPSG:4326, also known as WGS 84. This element will identify the actual datum
+                used, confirming WGS 84 or identifying what other datum applies.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;kingdom&quot; ref=&quot;dwc:kingdom&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The full scientific name of the kingdom in which the taxon is
+                classified.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;phylum&quot; ref=&quot;dwc:phylum&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The full scientific name of the phylum in which the taxon is
+                classified.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;class&quot; ref=&quot;dwc:class&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The full scientific name of the class in which the taxon is
+                classified.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;order&quot; ref=&quot;dwc:order&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The full scientific name of the order in which the taxon is
+                classified.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;family&quot; ref=&quot;dwc:family&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The full scientific name of the family in which the taxon is
+                classified.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;genus&quot; ref=&quot;dwc:genus&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The full scientific name of the genus in which the taxon is
+                classified.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;subgenus&quot; ref=&quot;dwc:subgenus&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The full scientific name of the subgenus in which the taxon is
+                classified. Values should include the genus to avoid homonym
+                confusion.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;species&quot; ref=&quot;dwc:specificEpithet&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The full scientific name of the species in which the taxon is
+                classified. If a subspecies identification is provided, add the subspecies name
+                after the species name separated by a space.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;infraspecificEpithet&quot; ref=&quot;dwc:infraspecificEpithet&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The full scientific name of the subspecies, variant or other finer
+                level identification.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;scientificNameAuthorship&quot; ref=&quot;dwc:scientificNameAuthorship&quot;
+        type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The authorship information for the
+                scientificName.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;taxonRemarks&quot; ref=&quot;dwc:taxonRemarks&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;Comments or notes about the taxon or name.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;identifiedBy&quot; ref=&quot;dwc:identifiedBy&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The name or other identifier of individual(s) or institution(s) that
+                assigned the taxonomic name. Can be a list delimited by
+                semicolon.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;identificationDate&quot; ref=&quot;dwc:eventDate&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;The date the identification on this record was made, expressed in ISO
+                8601 date format.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;identificationQualifier&quot; ref=&quot;dwc:identificationQualifier&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;A brief phrase or a standard term (&quot;cf.&quot;, &quot;aff.&quot;) to express the
+                determiner's doubts about the Identification.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+    &lt;xsd:element name=&quot;identificationRemarks&quot; ref=&quot;dwc:identificationRemarks&quot; type=&quot;xsd:string&quot;&gt;
+        &lt;xsd:annotation&gt;
+            &lt;xsd:documentation&gt;Comments or notes about the identification.&lt;/xsd:documentation&gt;
+        &lt;/xsd:annotation&gt;
+    &lt;/xsd:element&gt;
+
+&lt;/xsd:schema&gt;
+
+</code></pre>
+
+<h2 id="toc_12">Version 0.9</h2>
+
+<ul>
+<li>Originally submitted by Philip Goldstein, USGS/OBIS-USA on 2011-11-30</li>
+<li><a href="http://www.ioos.noaa.gov/schema/ioosbiology/0_9/ioos_biological_terminology_vpoint9d.xml">IOOS Biological Data Terminology version 0.9: Definition</a></li>
+<li><a href="http://www.ioos.noaa.gov/schema/ioosbiology/0_9/ioosbiologicalterminology_vpoint9.xsd">IOOS Biological Data Terminology version 0.9 (xsd)</a></li>
+</ul>
+
+</div>
+
+
+
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+  </body>
+</html>
+
