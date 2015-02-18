@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://abirger.github.io/biological-data-services/</loc>
+    <loc>http://ioos.github.io/biological-data-services/</loc>
     <lastmod>2014-03-04T07:56:39+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://abirger.github.io/biological-data-services/biological-data-procedure/</loc>
+    <loc>http://ioos.github.io/biological-data-services/biological-data-procedure/</loc>
     <lastmod>2014-03-04T07:56:39+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://abirger.github.io/biological-data-services/biological-observations-project/</loc>
+    <loc>http://ioos.github.io/biological-data-services/biological-observations-project/</loc>
     <lastmod>2014-08-04T07:56:39+00:00</lastmod>
   </url>
   

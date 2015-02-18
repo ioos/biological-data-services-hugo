@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> </title>
-    <link>http://abirger.github.io/biological-data-services/index.xml/</link>
+    <link>http://ioos.github.io/biological-data-services/index.xml/</link>
     <language>en-us</language>
     <author></author>
     <rights>(C) 2014</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>IOOS Biological Data Services Enrollment Procedures</title>
-          <link>http://abirger.github.io/biological-data-services/biological-data-procedure/</link>
+          <link>http://ioos.github.io/biological-data-services/biological-data-procedure/</link>
           <pubDate>Tue, 04 Mar 2014 07:56:39 UTC</pubDate>
           <author></author>
-          <guid>http://abirger.github.io/biological-data-services/biological-data-procedure/</guid>
+          <guid>http://ioos.github.io/biological-data-services/biological-data-procedure/</guid>
           <description>
 
 &lt;p&gt;&lt;em&gt;This document describes the data enrollment procedures proposed by IOOS Data Management and Communication (DMAC) to support sharing and integration of aquatic biological data (i.e. IOOS core variables: fish species, fish abundance, zooplankton species, zooplankton abundance, phytoplankton species). However these data services are applicable to any aquatic taxa that have presence, absence and abundance information.&lt;/em&gt;&lt;/p&gt;
@@ -288,10 +288,10 @@ Examples: number of records, number of taxa and locations, date range, ranges an
       
         <item>
           <title>IOOS Biological Observations Project</title>
-          <link>http://abirger.github.io/biological-data-services/biological-observations-project/</link>
+          <link>http://ioos.github.io/biological-data-services/biological-observations-project/</link>
           <pubDate>Mon, 04 Aug 2014 07:56:39 UTC</pubDate>
           <author></author>
-          <guid>http://abirger.github.io/biological-data-services/biological-observations-project/</guid>
+          <guid>http://ioos.github.io/biological-data-services/biological-observations-project/</guid>
           <description>
 
 &lt;!-- For a single homepage put in FrontMatter [url = &#34;index.html&#34;] --&gt;
