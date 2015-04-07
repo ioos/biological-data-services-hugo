@@ -3,102 +3,38 @@ weight = "40"
 type = "post"
 draft = false
 sidebar = true
-Title = "IOOS Biological Observations Project"
+Title = "IOOS Biological Observations Data Services"
 date = 2014-08-04T07:56:39Z
 +++
 
 <!-- For a single homepage put in FrontMatter [url = "index.html"] -->
 
 
-_The IOOS Biological Observations Project is addressing the Data Management and Communications (DMAC) requirements that pertain to biological observations standards and interoperability applicable to U.S. IOOS and to various observing systems. Biological observations are highly heterogeneous and the variety of formats, logical structures, and sampling methods create significant challenges. 
-The objective of the IOOS Biological Observations Projects is to develop an efficient and effective information infrastructure for biological observations, adding components and links as necessary to serve end-users._
+_The IOOS Biological Observations Data Services address the Data Management and Communications (DMAC) requirements that pertain to biological observations standards and interoperability applicable to U.S. IOOS and to various observing systems. Biological observations are highly heterogeneous and the variety of formats, logical structures, and sampling methods create significant challenges. 
+The objective of the IOOS Biological Observations Services is to develop and deploy an efficient and effective information infrastructure for biological observations, adding components and links as necessary to serve end-users._
 <!--more-->
  
-# About Biological Observations Data Project
-
-The objective of Biological Observations Data Project (BDP), is to help develop an efficient and effective information infrastructure for biological observations databases, adding components and web links as necessary to serve customers/end-users.  The project is currently focused on a single case-study, and it’s designed to promote biological data standards and interoperability to help customers/end-users access observations from a wide variety of sources and formats.  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](/images/img_fig_4_bop_blockdiagram600.jpg)
-
-<!-- 
-![Towed Diver Survey (TWSs)](/images/img_fig_2_towd_divr_survey240.jpg) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Stationary Point Counts (SPCs)](/images/img_fig_1_statnry_point_count240-2.jpg) 
--->
-
-Databases in use have been developed by disparate organizations, institutions, and individuals for differing purposes, and result in databases with locally-specific structures, contents, methods, and policies.  
-In addition, these data and applications are diverse and may change over time; as such, data from one source might contain different variables depending on when the data were collected.  These differences can make retrieving data across databases a time-consuming and ineffective process.  This project aims to improve access to data from these diverse sources.
-
-![](/images/img_fig_1&2.jpg) 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_**Towed Diver Survey (TWS) and Stationary Point Counts (SPCs)**_
 
 
-The case study in focus is a reef fish population assessment. This assessment is used to establish reef fish Annual Catch Limits as defined by the Magnuson-Stevens Fishery Conservation and Management Reauthorization Act (MSRA).  The data were collected by scientists and managers at NOAA’s Pacific Islands Fisheries Science Center (PIFSC).
+# Biological Data Standards 
 
-<!--
-![Towed Diver Survey (TWSs)](/images/img_fig_2_towd_divr_survey240.jpg)
--->
+The IOOS Biological Observations Data Services had adopted/adapted or had built the following data standards:
 
-The biological observations used for this project are species presence/absence/abundance and life history data for reef fishes in the Hawaiian Archipelago and other locations in the Pacific region. The data providers include NOAA PIFSC Coral Reef Ecosystem Division, National Park Service Pacific Island Network, and the NOAA Papahānaumokuākea Marine National Monument. The data include independent fishery surveys (diver-based reef fish observations) collected as part of each agency’s coral reef monitoring programs.
-While a single user-group was identified in the Pacific region for this project, the results should be applicable more broadly to projects utilizing biological observations, and it should be portable to other geographies. 
-
-![](/images/img_fig_3_bop_globe_pacific600.jpg)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_**Locations of the reef-areas (i.e., islands and atolls) surveyed by**_ <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_**Pacific Islands Fisheries Science Center / Coral Reef Ecosystem Division, PIFSC / CRED**_<br>
-<br>
-<br>
-<br>
-
-
-# BDP Details
-
-## Data Standards 
-
-This project had adopted/adapted or had built the following data standards:
 * Schema Terminology will be based on ratified [Darwin core](http://www.ioos.noaa.gov/exit.html?url=http%3A%2F%2Frs.tdwg.org%2Fdwc%2F), [Dublin core](http://www.ioos.noaa.gov/exit.html?url=http%3A%2F%2Fdublincore.org%2Fdocuments%2Fdces%2F) and proposed IOOS vocabularies. XML guide will also based on Darwin core XML guidance.
 * [CF Conventions](http://cfconventions.org/) had been applied to biological data definition at the field level. This is to assure that IOOS Biological Project will be compatible with other geophysical datasets.
 * [FGDC Content Standard for Digital Geospatial Metadata (CSDGM)](http://www.fgdc.gov/metadata/geospatial-metadata-standards#csdgm) and [ISO 19115-2](http://service.ncddc.noaa.gov/rdn/www/metadata-standards/documents/MI-Metadata.pdf) are the adopted Metadata standards.
 * [ERDDAP](http://coastwatch.pfeg.noaa.gov/erddap/index.html) is the main webservice for this project.
 * [Environmental Data Connector (EDC)](http://www.pfeg.noaa.gov/products/EDC/) is the client developed to connect directly to ERDDAP and access data using customer application tools such as [ArcGIS](http://www.esri.com/software/arcgis) and [R Project](http://www.r-project.org/).
-* To learn more about the Biological data standards implemented at the Pacific Islands Region please follow the following links: 
+* To learn more about the biological data standards implemented at the Pacific Islands Region please follow the following links: 
   - [Biological data services at the Pacific Islands Region website](http://pacioos-mapserver2.ancl.hawaii.edu/erddap/info/index.html?page=1&itemsPerPage=1000)
   - [FGDC and ISO Metadata](http://oos.soest.hawaii.edu/cgi-bin/get_metadata.py?id=PACN_FISH_TRANSECT&format=fgdc)
 
-
-## Further Information
-
-### Organizations and Partners
-
-This effort is comprised of a wide collaboration of organizations and partners, including:
-
-* U.S. Integrated Ocean Observing System (IOOS)
-* NOAA Pacific Islands Fisheries Science Center (PIFSC)/Coral Reef Ecosystem  Division (CRED)
-* Pacific Islands Ocean Observing System (PacIOOS)
-* NOAA Papahānaumokuākea Marine National Monument (PMNM)
-* National Park Services (NPS) Pacific Island Network (PACN)
-* U.S. Geological Survey /Ocean Biogeographic Information System (USGS/OBIS-USA)
-* Hawaii Institute of Marine Biology, School of Ocean and Earth Science and Technology, University of Hawaii, Manoa (UH/HIMB)
-* U.S. Census of Marine Life (U.S CoML)
-* Southwest Fisheries Science Center/ Environmental Research Division (SWFSC/ ERD)
-* NOAA Fisheries/Office of Science and Technology (OST)
-
-
-### Contact Information
-
-Project Manager, [Dr. Hassan Moustahfid](mailto:Hassan.moustahfid@noaa.gov)<br>
-Phone: 301-427-2447
-
-### Papers
-
-* MTS reference paper - [Moustahfid et al. (2011) _Making United States Integrated Ocean Observing System (U.S. IOOS) Inclusive of Marine Biological Resources Ecosystems Observation._ OCEANS'11 MTS/IEEE KONA in Data Visualization and Access (110408-005)](http://www.ioos.noaa.gov/library/bdp110408-005mts2011.pdf)
-* [Project flyer](http://www.ioos.noaa.gov/biological_observations/flyer.pdf)
 <br>
 <br>
-<br>
+
 
 # IOOS Biological Data Terminology
 
-##	Introduction
 The IOOS Biological Data terminology is a list of data fields with names, descriptions, and format notes. It was based on ratified Darwin core, Dublin core and proposed IOOS vocabularies. XML guide was based on Darwin core XML guidance. CF Conventions had been applied to biological data definition at the field level. This is to assure that IOOS Biological Project will be compatible with other IOOS geophysical datasets. In order to “map” your database fields to the IOOS Biological Data terminology fields you will need to download the following files. 
 
 ## Version 1
