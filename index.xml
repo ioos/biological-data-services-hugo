@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> </title>
-    <link>http://ioos.github.io/biological-data-services/index.xml/</link>
+    <link>http://ioos.github.io/biological-data-services/</link>
     <language>en-us</language>
     <author></author>
     <rights>(C) 2014</rights>
@@ -31,7 +31,7 @@
 &lt;p&gt;&amp;nbsp; &lt;br&gt;
 &amp;nbsp; &lt;br&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;INTRODUCTION&lt;/h1&gt;
+&lt;h1 id=&#34;introduction:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;INTRODUCTION&lt;/h1&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;“This IOOS Biological data solutions and linking to users applications will allow people to do research that simply could not  be done before due to access and format challenges.  It will save weeks to months of time acquiring, reformatting,  understanding the collection techniques and conducting the analyses”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -43,7 +43,7 @@
 &lt;p&gt;Philip Goldstein (OBIS-USA)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;BASIC PRINCIPLE&lt;/h1&gt;
+&lt;h1 id=&#34;basic-principle:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;BASIC PRINCIPLE&lt;/h1&gt;
 
 &lt;p&gt;IOOS was established with the core principle that observation data should be made freely available to all. This has implications:&lt;/p&gt;
 
@@ -53,13 +53,13 @@
 &lt;li&gt;&lt;p&gt;Data providers will be responsible for restricting access to any data which may be too sensitive for general release (e.g. location data for endangered species). Providers are free to manage such control in any way that makes sense in their context.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h1 id=&#34;toc_2&#34;&gt;IOOS BIOLOGICAL DATA FLOW&lt;/h1&gt;
+&lt;h1 id=&#34;ioos-biological-data-flow:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;IOOS BIOLOGICAL DATA FLOW&lt;/h1&gt;
 
 &lt;p&gt;Data flow is represented in &lt;a href=&#34;#Fig_1&#34;&gt;&lt;strong&gt;Figure 1&lt;/strong&gt;&lt;/a&gt;. IOOS Regional Associations (RA) can enroll biological data providers (i.e. IOOS Biological Core variables: fish species, fish abundance, zooplankton species, zooplankton abundance and phytoplankton species) following the IOOS enrollment procedures outlined and register their web services to the &lt;a href=&#34;http://www.ioos.noaa.gov/catalog/register.html&#34;&gt;IOOS Registry&lt;/a&gt;. For broader dissemination, the IOOS registry will then connect the data to other data portals such as  &lt;a href=&#34;http://www.data.gov/&#34;&gt;Data.gov&lt;/a&gt;, &lt;a href=&#34;http://www.usgs.gov/obis-usa/&#34;&gt;OBIS&lt;/a&gt;, &lt;a href=&#34;https://inport.nmfs.noaa.gov/inport/&#34;&gt;NMFS InPort&lt;/a&gt;, etc., and national Archiving Center (&lt;a href=&#34;http://www.nodc.noaa.gov/&#34;&gt;NODC&lt;/a&gt;), and make the data accessible to data users.&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp; &lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/images/img_fig_1.jpg&#34; alt=&#34;IOOS Biological data flow&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://ioos.github.io/biological-data-services/images/img_fig_1.jpg&#34; alt=&#34;IOOS Biological data flow&#34; /&gt;
 
 &lt;a name=&#34;Fig_1&#34;&gt;&lt;/a&gt; &lt;strong&gt;Figure 1. IOOS Biological data flow: from data providers through RAs to IOOS Registry/Catalog/Viewer &lt;br&gt;(i.e. US IOOS Portal) and other National portals (e.g. OBIS-USA, Data.gov, NMFS InPORT) and archiving center (NODC).&lt;/strong&gt;&lt;/p&gt;
 
@@ -75,7 +75,7 @@
 &lt;li&gt;The RA will ensure that the data gets registered into the IOOS service registry according to the IOOS DMAC guidance that can be found &lt;a href=&#34;https://github.com/ioos/registry&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;toc_3&#34;&gt;ENROLLMENT PROCEDURES&lt;/h1&gt;
+&lt;h1 id=&#34;enrollment-procedures:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;ENROLLMENT PROCEDURES&lt;/h1&gt;
 
 &lt;p&gt;Data providers can provide their data set in electronic form to the RA in their region. Then, the RA will publish the data. The RA will then work with the provider to determine the necessary steps to ensure the data are compliant with IOOS BDS. Data providers, in turn, will work with the RA to complete the necessary data transformation according to IOOS BDS &lt;a href=&#34;http://www.ioos.noaa.gov/biological_observations/welcome.html&#34;&gt;Guidelines&lt;/a&gt; and &lt;a href=&#34;http://mmisw.org/ont/ioos/biological&#34;&gt;Standard Vocabulary&lt;/a&gt;.&lt;/p&gt;
 
@@ -89,7 +89,7 @@
 
 &lt;p&gt;&amp;nbsp; &lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/images/img_fig_2.jpg&#34; alt=&#34;Procedure steps&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://ioos.github.io/biological-data-services/images/img_fig_2.jpg&#34; alt=&#34;Procedure steps&#34; /&gt;
 
 &lt;a name=&#34;Fig_2&#34;&gt;&lt;/a&gt; &lt;strong&gt;Figure 2. Biological data provider’s enrollment procedure steps.&lt;/strong&gt;&lt;/p&gt;
 
@@ -101,59 +101,59 @@
 
 &lt;p&gt;Occurrence data can be made more consistent by using standard observation methods and by following standards, such as IOOS BDS, for formatting and presenting the data. Data that is more consistent is more useful.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_4&#34;&gt;Step #1 - Format Occurrence Data to enroll data in IOOS BDS&lt;/h2&gt;
+&lt;h2 id=&#34;step-1-format-occurrence-data-to-enroll-data-in-ioos-bds:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;Step #1 - Format Occurrence Data to enroll data in IOOS BDS&lt;/h2&gt;
 
-&lt;p&gt;The goal is to obtain data in taxon-location-time format. The RA will work with the provider in two steps: (1a) verify that the contents of the dataset do in fact contain occurrence information (observed taxon-location-date-details), and (1b) perform data manipulation, such as relational joins, to gather the occurrence data in a single table with columns and rows with each row representing a taxon-specific occurrence. A row may represent a group of occurences, after binning by sex, size, or other characteristics of biology or the observation method, or they may be aggregated as totals without division into such bins. Each column from left to right across the row represents detail about the occurrence. For more on the use and meaning of each column, see &lt;a href=&#34;/biological-data-procedure/#toc_10&#34;&gt;Step #3&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The goal is to obtain data in taxon-location-time format. The RA will work with the provider in two steps: (1a) verify that the contents of the dataset do in fact contain occurrence information (observed taxon-location-date-details), and (1b) perform data manipulation, such as relational joins, to gather the occurrence data in a single table with columns and rows with each row representing a taxon-specific occurrence. A row may represent a group of occurences, after binning by sex, size, or other characteristics of biology or the observation method, or they may be aggregated as totals without division into such bins. Each column from left to right across the row represents detail about the occurrence. For more on the use and meaning of each column, see &lt;a href=&#34;http://ioos.github.io/biological-data-services/biological-data-procedure/#toc_10&#34;&gt;Step #3&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_5&#34;&gt;Step # 2. Gather Human Metadata&lt;/h2&gt;
+&lt;h2 id=&#34;step-2-gather-human-metadata:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;Step # 2. Gather Human Metadata&lt;/h2&gt;
 
 &lt;p&gt;The RA will work with the data providers to gather descriptive metadata for the datasets, including: title, summary/abstract, the data provider’s name and email address, the recommended way to cite the dataset, keywords, georeference method, coordinate uncertainty, taxonomic identification details, the sampling protocol / effort / conditions, derived data calculation methods (e.g. for fish abundance
 estimate), history, and related resources.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Machine metadata&lt;/strong&gt;&lt;/em&gt; is metadata can be generated from the data. See &lt;a href=&#34;/biological-data-procedure/#toc_11&#34;&gt;Step #4&lt;/a&gt;. This will be done by RA data staff.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Machine metadata&lt;/strong&gt;&lt;/em&gt; is metadata can be generated from the data. See &lt;a href=&#34;http://ioos.github.io/biological-data-services/biological-data-procedure/#toc_11&#34;&gt;Step #4&lt;/a&gt;. This will be done by RA data staff.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Human metadata&lt;/strong&gt;&lt;/em&gt; refers to essential descriptive details, vital to effective use of the data, which must be gathered, written, edited by humans. Human metadata cannot be generated automatically from the contents of a dataset. Human metadata is the principle method used to capture expertise from the data providers; the RA data staff will assist in every way feasible.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_6&#34;&gt;Step # 3. Format Data to IOOS BDS&lt;/h2&gt;
+&lt;h2 id=&#34;step-3-format-data-to-ioos-bds:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;Step # 3. Format Data to IOOS BDS&lt;/h2&gt;
 
 &lt;p&gt;This step involves matching columns in the provider’s data table with IOOS BDS terms (&lt;a href=&#34;http://www.ioos.noaa.gov/biological_observations/welcome.html&#34;&gt;http://www.ioos.noaa.gov/biological_observations/welcome.html&lt;/a&gt; or in MMI &lt;a href=&#34;http://mmisw.org/ont/ioos/biological&#34;&gt;http://mmisw.org/ont/ioos/biological&lt;/a&gt;) and documenting exceptions, questions, and issues that need any kind of follow-up. This step requires a thorough understanding of how each term is used in the original data table as well as a thorough understanding of the IOOS BDS terms. In many cases, terms in the original data table map directly to IOOS BDS terms, and a rich, standardized dataset can be created. In other cases, columns of data from the original data table need to be modified or reformatted to match the IOOS BDS specification. Precise attention to data formats and term definitions is required. IOOS Biology terms are specific: they are not used as &amp;ldquo;catch-all&amp;rdquo; terms that have general or approximate meaning. An &amp;ldquo;enrollment journal&amp;rdquo; approach is recommended (See example in Appendix). An enrollment journal is a document with a table that contains columns for: the IOOS Biology term, the definition of the IOOS Biology term, the name of the corresponding column in the original data, and documentation/comments regarding format changes or conversion requirements, related issues, processing details, and other issues that need further investigation. The enrollment journal is intended to be a multi-party document where enrollers and RA staff can communicate such issues and questions among those whose expertise is required to resolve the issues and complete the enrollment. The enrollment journal encourages an analytical, quality-based approach to gaining consensus of multiple parties within the data provider’s organization and the RA as to the best way to depict the original data in the IOOS BDS standard. The enrollment journal also provides a rich method to gather and refine information that will go into the human metadata that describes the dataset and how it was made available via IOOS BDS.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_7&#34;&gt;Step # 4. Generate Machine Metadata&lt;/h2&gt;
+&lt;h2 id=&#34;step-4-generate-machine-metadata:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;Step # 4. Generate Machine Metadata&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Machine metadata&lt;/strong&gt;&lt;/em&gt; is metadata that can be generated from data.
 Examples: number of records, number of taxa and locations, date range, ranges and enumeration of other values, and geographic extent.&lt;/p&gt;
 
 &lt;p&gt;Other machine metadata comes from the IOOS BDS terminology definitions.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_8&#34;&gt;Step # 5. Metadata to ISO 19115 XML&lt;/h2&gt;
+&lt;h2 id=&#34;step-5-metadata-to-iso-19115-xml:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;Step # 5. Metadata to ISO 19115 XML&lt;/h2&gt;
 
 &lt;p&gt;IOOS recommends using ISO 19115 XML for metadata standards. In this step, the RA data staff can assist data providers with creating an ISO 19115 metadata document that follows the ISO 19115 guidance from NGDC and NCDDC. See &lt;a href=&#34;https://geo-ide.noaa.gov/wiki/index.php?title=Category%3AISO_19115&#34;&gt;Category:ISO 19115&lt;/a&gt; in NOAA Environmental Data Management Wiki. Or, if an RA is using ERDDAP, then &lt;a href=&#34;http://coastwatch.pfeg.noaa.gov/erddap/download/setupDatasetsXml.html#globalAttributes&#34;&gt;ERDDAP will automatically generate the ISO and FGDC XML documents&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_9&#34;&gt;Step #6. Service Configurations&lt;/h2&gt;
+&lt;h2 id=&#34;step-6-service-configurations:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;Step #6. Service Configurations&lt;/h2&gt;
 
 &lt;p&gt;If the dataset will be published via ERDDAP, an &lt;a href=&#34;http://coastwatch.pfeg.noaa.gov/erddap/download/setupDatasetsXml.html&#34;&gt;XML description of the dataset&lt;/a&gt; needs to be created so that ERDDAP knows how to access the data and how to present the data to users.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_10&#34;&gt;Step # 7. Publish Metadata&lt;/h2&gt;
+&lt;h2 id=&#34;step-7-publish-metadata:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;Step # 7. Publish Metadata&lt;/h2&gt;
 
 &lt;p&gt;The dataset’s metadata, or a link to it, must be distributed to &lt;a href=&#34;https://github.com/ioos/registry&#34;&gt;IOOS Service Registry&lt;/a&gt;. IOOS Registry then will make it available to desired locations, such as repositories (e.g., NASA GCMD etc.), portals (e.g., Data.gov), search engines, or other systems that can utilize the metadata. Requirements for this step include assuring that the master copy of metadata is under control, and that there are procedures to assure that all secondary copies will get updated whenever the master copy is changed.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_11&#34;&gt;Step # 8. Archive with NOAA National Oceanographic Data Center (NODC)&lt;/h2&gt;
+&lt;h2 id=&#34;step-8-archive-with-noaa-national-oceanographic-data-center-nodc:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;Step # 8. Archive with NOAA National Oceanographic Data Center (NODC)&lt;/h2&gt;
 
 &lt;p&gt;Send the new dataset (data and metadata) to NODC. This should be done with the process that is already in place between NOAA IOOS Program Office, RAs and NODC to archive observing data. Two important aspects of this coordination with NODC are (1) make sure that NODC has the same version of the data (i.e., the same snapshot in the lifecycle of the data contents) that IOOS is serving, and (2) as much as possible, the same metadata should be used by IOOS BDS and NODC.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_12&#34;&gt;Step #9. Synchronizing data and metadata with OBIS-USA and IOOS System&lt;/h2&gt;
+&lt;h2 id=&#34;step-9-synchronizing-data-and-metadata-with-obis-usa-and-ioos-system:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;Step #9. Synchronizing data and metadata with OBIS-USA and IOOS System&lt;/h2&gt;
 
 &lt;p&gt;This step requires OBIS-USA to establish a relationship with IOOS to query the IOOS Service Registry/Catalog and vise-versa. Since OBIS-USA is a national resource for discovery, attribution, access, and use of data from any and all US marine biogeographical data sources, each RAs data providers dataset&amp;rsquo;s participation in OBIS-USA via IOOS can be an additional means of discovery, referral and attribution for IOOS data. In most cases, OBIS- USA will carry a more limited &amp;ldquo;biogeographic&amp;rdquo; form of data, with a reduced level of detail, than the IOOS nodes will be serving. If users find data at OBIS-USA and want more detailed data, they will be referred to the IOOS service.&lt;/p&gt;
 
 &lt;p&gt;The practical steps of integrating with OBIS-USA will largely be accomplished by IOOS&amp;rsquo;s enrollment/publication process, due to the shared definitions within IOOS BDS and OBIS- USA&amp;rsquo;s MBG (Marine BioGeography) standard, as well as common metadata practices.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_13&#34;&gt;ENROLLMENT JOURNAL TO DEVELOP A DATA RESOURCE FOR IOOS BDS&lt;/h1&gt;
+&lt;h1 id=&#34;enrollment-journal-to-develop-a-data-resource-for-ioos-bds:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;ENROLLMENT JOURNAL TO DEVELOP A DATA RESOURCE FOR IOOS BDS&lt;/h1&gt;
 
 &lt;p&gt;An example of the Enrollment Journal may be found in the &lt;a href=&#34;https://github.com/abirger/biological-data-services/blob/master/doc/IOOS_BDS_ENROLLEMENT_PROCESS_Draft_vs1.0.pdf&#34;&gt;APPENDIX&lt;/a&gt; section of the PDF version of the document. The example encompasses the &lt;a href=&#34;http://www.galvestonlab.sefsc.noaa.gov/stories/2013/ecology/&#34;&gt;Comparative Assessment of Gulf Estuarine Systems (CAGES) Louisiana&lt;/a&gt; performed by NOAA Southeast Fisheries Science Center Galveston Lab.&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_14&#34;&gt;REFERENCE INFORMATION&lt;/h1&gt;
+&lt;h1 id=&#34;reference-information:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;REFERENCE INFORMATION&lt;/h1&gt;
 
-&lt;h2 id=&#34;toc_15&#34;&gt;Contribution&lt;/h2&gt;
+&lt;h2 id=&#34;contribution:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;Contribution&lt;/h2&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -176,7 +176,7 @@ Examples: number of records, number of taxa and locations, date range, ranges an
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&#34;toc_16&#34;&gt;Validation&lt;/h2&gt;
+&lt;h2 id=&#34;validation:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;Validation&lt;/h2&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -194,7 +194,7 @@ Examples: number of records, number of taxa and locations, date range, ranges an
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&#34;toc_17&#34;&gt;Revisions&lt;/h2&gt;
+&lt;h2 id=&#34;revisions:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;Revisions&lt;/h2&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -258,15 +258,15 @@ Examples: number of records, number of taxa and locations, date range, ranges an
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&#34;toc_18&#34;&gt;Endorsement Disclaimer&lt;/h2&gt;
+&lt;h2 id=&#34;endorsement-disclaimer:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;Endorsement Disclaimer&lt;/h2&gt;
 
 &lt;p&gt;Mention of a commercial company or product does not constitute an endorsement by NOAA. Use of information from this publication for publicity or advertising purposes concerning proprietary products or the tests of such products is not authorized&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_19&#34;&gt;Acknowledgments&lt;/h2&gt;
+&lt;h2 id=&#34;acknowledgments:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;Acknowledgments&lt;/h2&gt;
 
 &lt;p&gt;Special thanks go to Jim Potemra (PacIOOS), Vembu Subramanian (SECOORA), Matt Howard (GCOOS), Bob Simons (NOAA/SWFSC/ERD) and Charles Alexander, Rob Ragsdale and Derrick Snowden (U.S. IOOS) for comments and suggestions that considerably improved this document content.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_20&#34;&gt;Citations&lt;/h2&gt;
+&lt;h2 id=&#34;citations:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;Citations&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.ioos.noaa.gov/data/contribute_data.html&#34;&gt;IOOS DMAC Guidance&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -287,117 +287,51 @@ Examples: number of records, number of taxa and locations, date range, ranges an
     
       
         <item>
-          <title>IOOS Biological Observations Project</title>
-          <link>http://ioos.github.io/biological-data-services/biological-observations-project/</link>
+          <title>IOOS Biological Observations Data Services</title>
+          <link>http://ioos.github.io/biological-data-services/biological-observations/</link>
           <pubDate>Mon, 04 Aug 2014 07:56:39 UTC</pubDate>
           <author></author>
-          <guid>http://ioos.github.io/biological-data-services/biological-observations-project/</guid>
+          <guid>http://ioos.github.io/biological-data-services/biological-observations/</guid>
           <description>
 
 &lt;!-- For a single homepage put in FrontMatter [url = &#34;index.html&#34;] --&gt;
 
-&lt;p&gt;&lt;em&gt;The IOOS Biological Observations Project is addressing the Data Management and Communications (DMAC) requirements that pertain to biological observations standards and interoperability applicable to U.S. IOOS and to various observing systems. Biological observations are highly heterogeneous and the variety of formats, logical structures, and sampling methods create significant challenges.
-The objective of the IOOS Biological Observations Projects is to develop an efficient and effective information infrastructure for biological observations, adding components and links as necessary to serve end-users.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The IOOS Biological Observations Data Services address the Data Management and Communications (DMAC) requirements that pertain to biological observations standards and interoperability applicable to U.S. IOOS and to various observing systems. Biological observations are highly heterogeneous and the variety of formats, logical structures, and sampling methods create significant challenges.
+The objective of the IOOS Biological Observations Services is to develop and deploy an efficient and effective information infrastructure for biological observations, adding components and links as necessary to serve end-users.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;About Biological Observations Data Project&lt;/h1&gt;
+&lt;h1 id=&#34;biological-data-standards:08f52f911df72d9b94c5ed7d7d3e0541&#34;&gt;Biological Data Standards&lt;/h1&gt;
 
-&lt;p&gt;The objective of Biological Observations Data Project (BDP), is to help develop an efficient and effective information infrastructure for biological observations databases, adding components and web links as necessary to serve customers/end-users.  The project is currently focused on a single case-study, and it’s designed to promote biological data standards and interoperability to help customers/end-users access observations from a wide variety of sources and formats.&lt;/p&gt;
+&lt;p&gt;The IOOS Biological Observations Data Services had adopted/adapted or had built the following data standards:&lt;/p&gt;
 
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&#34;/images/img_fig_4_bop_blockdiagram600.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Schema Terminology will be based on ratified &lt;a href=&#34;http://www.ioos.noaa.gov/exit.html?url=http%3A%2F%2Frs.tdwg.org%2Fdwc%2F&#34;&gt;Darwin core&lt;/a&gt;, &lt;a href=&#34;http://www.ioos.noaa.gov/exit.html?url=http%3A%2F%2Fdublincore.org%2Fdocuments%2Fdces%2F&#34;&gt;Dublin core&lt;/a&gt; and proposed IOOS vocabularies. XML guide will also based on Darwin core XML guidance.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cfconventions.org/&#34;&gt;CF Conventions&lt;/a&gt; had been applied to biological data definition at the field level. This is to assure that IOOS Biological Project will be compatible with other geophysical datasets.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fgdc.gov/metadata/geospatial-metadata-standards#csdgm&#34;&gt;FGDC Content Standard for Digital Geospatial Metadata (CSDGM)&lt;/a&gt; and &lt;a href=&#34;http://service.ncddc.noaa.gov/rdn/www/metadata-standards/documents/MI-Metadata.pdf&#34;&gt;ISO 19115-2&lt;/a&gt; are the adopted Metadata standards.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://coastwatch.pfeg.noaa.gov/erddap/index.html&#34;&gt;ERDDAP&lt;/a&gt; is the main webservice for this project.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.pfeg.noaa.gov/products/EDC/&#34;&gt;Environmental Data Connector (EDC)&lt;/a&gt; is the client developed to connect directly to ERDDAP and access data using customer application tools such as &lt;a href=&#34;http://www.esri.com/software/arcgis&#34;&gt;ArcGIS&lt;/a&gt; and &lt;a href=&#34;http://www.r-project.org/&#34;&gt;R Project&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;To learn more about the biological data standards implemented at the Pacific Islands Region please follow the following links:
 
-&lt;!-- 
-![Towed Diver Survey (TWSs)](/images/img_fig_2_towd_divr_survey240.jpg) &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ![Stationary Point Counts (SPCs)](/images/img_fig_1_statnry_point_count240-2.jpg) 
---&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://pacioos-mapserver2.ancl.hawaii.edu/erddap/info/index.html?page=1&amp;amp;itemsPerPage=1000&#34;&gt;Biological data services at the Pacific Islands Region website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://oos.soest.hawaii.edu/cgi-bin/get_metadata.py?id=PACN_FISH_TRANSECT&amp;amp;format=fgdc&#34;&gt;FGDC and ISO Metadata&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Databases in use have been developed by disparate organizations, institutions, and individuals for differing purposes, and result in databases with locally-specific structures, contents, methods, and policies.&lt;br /&gt;
-In addition, these data and applications are diverse and may change over time; as such, data from one source might contain different variables depending on when the data were collected.  These differences can make retrieving data across databases a time-consuming and ineffective process.  This project aims to improve access to data from these diverse sources.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/img_fig_1&amp;amp;2.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;em&gt;&lt;strong&gt;Towed Diver Survey (TWS) and Stationary Point Counts (SPCs)&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The case study in focus is a reef fish population assessment. This assessment is used to establish reef fish Annual Catch Limits as defined by the Magnuson-Stevens Fishery Conservation and Management Reauthorization Act (MSRA).  The data were collected by scientists and managers at NOAA’s Pacific Islands Fisheries Science Center (PIFSC).&lt;/p&gt;
-
-&lt;!--
-![Towed Diver Survey (TWSs)](/images/img_fig_2_towd_divr_survey240.jpg)
---&gt;
-
-&lt;p&gt;The biological observations used for this project are species presence/absence/abundance and life history data for reef fishes in the Hawaiian Archipelago and other locations in the Pacific region. The data providers include NOAA PIFSC Coral Reef Ecosystem Division, National Park Service Pacific Island Network, and the NOAA Papahānaumokuākea Marine National Monument. The data include independent fishery surveys (diver-based reef fish observations) collected as part of each agency’s coral reef monitoring programs.
-While a single user-group was identified in the Pacific region for this project, the results should be applicable more broadly to projects utilizing biological observations, and it should be portable to other geographies.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/img_fig_3_bop_globe_pacific600.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;em&gt;&lt;strong&gt;Locations of the reef-areas (i.e., islands and atolls) surveyed by&lt;/strong&gt;&lt;/em&gt; &lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;em&gt;&lt;strong&gt;Pacific Islands Fisheries Science Center / Coral Reef Ecosystem Division, PIFSC / CRED&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
+&lt;p&gt;&lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_1&#34;&gt;BDP Details&lt;/h1&gt;
-
-&lt;h2 id=&#34;toc_2&#34;&gt;Data Standards&lt;/h2&gt;
-
-&lt;p&gt;This project had adopted/adapted or had built the following data standards:
-* Schema Terminology will be based on ratified &lt;a href=&#34;http://www.ioos.noaa.gov/exit.html?url=http%3A%2F%2Frs.tdwg.org%2Fdwc%2F&#34;&gt;Darwin core&lt;/a&gt;, &lt;a href=&#34;http://www.ioos.noaa.gov/exit.html?url=http%3A%2F%2Fdublincore.org%2Fdocuments%2Fdces%2F&#34;&gt;Dublin core&lt;/a&gt; and proposed IOOS vocabularies. XML guide will also based on Darwin core XML guidance.
-* &lt;a href=&#34;http://cfconventions.org/&#34;&gt;CF Conventions&lt;/a&gt; had been applied to biological data definition at the field level. This is to assure that IOOS Biological Project will be compatible with other geophysical datasets.
-* &lt;a href=&#34;http://www.fgdc.gov/metadata/geospatial-metadata-standards#csdgm&#34;&gt;FGDC Content Standard for Digital Geospatial Metadata (CSDGM)&lt;/a&gt; and &lt;a href=&#34;http://service.ncddc.noaa.gov/rdn/www/metadata-standards/documents/MI-Metadata.pdf&#34;&gt;ISO 19115-2&lt;/a&gt; are the adopted Metadata standards.
-* &lt;a href=&#34;http://coastwatch.pfeg.noaa.gov/erddap/index.html&#34;&gt;ERDDAP&lt;/a&gt; is the main webservice for this project.
-* &lt;a href=&#34;http://www.pfeg.noaa.gov/products/EDC/&#34;&gt;Environmental Data Connector (EDC)&lt;/a&gt; is the client developed to connect directly to ERDDAP and access data using customer application tools such as &lt;a href=&#34;http://www.esri.com/software/arcgis&#34;&gt;ArcGIS&lt;/a&gt; and &lt;a href=&#34;http://www.r-project.org/&#34;&gt;R Project&lt;/a&gt;.
-* To learn more about the Biological data standards implemented at the Pacific Islands Region please follow the following links:
-  - &lt;a href=&#34;http://pacioos-mapserver2.ancl.hawaii.edu/erddap/info/index.html?page=1&amp;amp;itemsPerPage=1000&#34;&gt;Biological data services at the Pacific Islands Region website&lt;/a&gt;
-  - &lt;a href=&#34;http://oos.soest.hawaii.edu/cgi-bin/get_metadata.py?id=PACN_FISH_TRANSECT&amp;amp;format=fgdc&#34;&gt;FGDC and ISO Metadata&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_3&#34;&gt;Further Information&lt;/h2&gt;
-
-&lt;h3 id=&#34;toc_4&#34;&gt;Organizations and Partners&lt;/h3&gt;
-
-&lt;p&gt;This effort is comprised of a wide collaboration of organizations and partners, including:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;U.S. Integrated Ocean Observing System (IOOS)&lt;/li&gt;
-&lt;li&gt;NOAA Pacific Islands Fisheries Science Center (PIFSC)/Coral Reef Ecosystem  Division (CRED)&lt;/li&gt;
-&lt;li&gt;Pacific Islands Ocean Observing System (PacIOOS)&lt;/li&gt;
-&lt;li&gt;NOAA Papahānaumokuākea Marine National Monument (PMNM)&lt;/li&gt;
-&lt;li&gt;National Park Services (NPS) Pacific Island Network (PACN)&lt;/li&gt;
-&lt;li&gt;U.S. Geological Survey /Ocean Biogeographic Information System (USGS/OBIS-USA)&lt;/li&gt;
-&lt;li&gt;Hawaii Institute of Marine Biology, School of Ocean and Earth Science and Technology, University of Hawaii, Manoa (UH/HIMB)&lt;/li&gt;
-&lt;li&gt;U.S. Census of Marine Life (U.S CoML)&lt;/li&gt;
-&lt;li&gt;Southwest Fisheries Science Center/ Environmental Research Division (SWFSC/ ERD)&lt;/li&gt;
-&lt;li&gt;NOAA Fisheries/Office of Science and Technology (OST)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;toc_5&#34;&gt;Contact Information&lt;/h3&gt;
-
-&lt;p&gt;Project Manager, &lt;a href=&#34;mailto:Hassan.moustahfid@noaa.gov&#34;&gt;Dr. Hassan Moustahfid&lt;/a&gt;&lt;br&gt;
-Phone: 301-427-2447&lt;/p&gt;
-
-&lt;h3 id=&#34;toc_6&#34;&gt;Papers&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;MTS reference paper - &lt;a href=&#34;http://www.ioos.noaa.gov/library/bdp110408-005mts2011.pdf&#34;&gt;Moustahfid et al. (2011) &lt;em&gt;Making United States Integrated Ocean Observing System (U.S. IOOS) Inclusive of Marine Biological Resources Ecosystems Observation.&lt;/em&gt; OCEANS&amp;rsquo;11 MTS/IEEE KONA in Data Visualization and Access (110408-005)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ioos.noaa.gov/biological_observations/flyer.pdf&#34;&gt;Project flyer&lt;/a&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;toc_7&#34;&gt;IOOS Biological Data Terminology&lt;/h1&gt;
-
-&lt;h2 id=&#34;toc_8&#34;&gt;Introduction&lt;/h2&gt;
+&lt;h1 id=&#34;ioos-biological-data-terminology:08f52f911df72d9b94c5ed7d7d3e0541&#34;&gt;IOOS Biological Data Terminology&lt;/h1&gt;
 
 &lt;p&gt;The IOOS Biological Data terminology is a list of data fields with names, descriptions, and format notes. It was based on ratified Darwin core, Dublin core and proposed IOOS vocabularies. XML guide was based on Darwin core XML guidance. CF Conventions had been applied to biological data definition at the field level. This is to assure that IOOS Biological Project will be compatible with other IOOS geophysical datasets. In order to “map” your database fields to the IOOS Biological Data terminology fields you will need to download the following files.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_9&#34;&gt;Version 1&lt;/h2&gt;
+&lt;h2 id=&#34;version-1:08f52f911df72d9b94c5ed7d7d3e0541&#34;&gt;Version 1&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Originally submitted by Philip Goldstein, USGS/OBIS-USA on 2012-06-08&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.ioos.noaa.gov/exit.html?url=http%3A%2F%2Fmmisw.org%2Forr%2F%23http%3A%2F%2Fmmisw.org%2Font%2Fioos%2Fbiological&#34;&gt;Marine Metadata Interoperability (MMI) Ontology Registry and Repository (ORR) Website&lt;/a&gt;.  The MMI ORR provides reference URLs that promote machine-to-machine discovery and use of ontologies and vocabularies.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;toc_10&#34;&gt;&amp;nbsp; &amp;nbsp; Definitions&lt;/h3&gt;
+&lt;h3 id=&#34;nbsp-nbsp-definitions:08f52f911df72d9b94c5ed7d7d3e0541&#34;&gt;&amp;nbsp; &amp;nbsp; Definitions&lt;/h3&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -945,7 +879,7 @@ Phone: 301-427-2447&lt;/p&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h3 id=&#34;toc_11&#34;&gt;&amp;nbsp; &amp;nbsp; Schema (XSD)&lt;/h3&gt;
+&lt;h3 id=&#34;nbsp-nbsp-schema-xsd:08f52f911df72d9b94c5ed7d7d3e0541&#34;&gt;&amp;nbsp; &amp;nbsp; Schema (XSD)&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot;?&amp;gt;
 &amp;lt;!-- version 0.9 2011/11/30 Philip Goldstein (University of Colorado, Boulder)
@@ -1802,7 +1736,7 @@ Phone: 301-427-2447&lt;/p&gt;
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;toc_12&#34;&gt;Version 0.9&lt;/h2&gt;
+&lt;h2 id=&#34;version-0-9:08f52f911df72d9b94c5ed7d7d3e0541&#34;&gt;Version 0.9&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Originally submitted by Philip Goldstein, USGS/OBIS-USA on 2011-11-30&lt;/li&gt;
