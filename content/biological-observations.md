@@ -20,7 +20,7 @@ The objective of the IOOS Biological Observations Services is to develop and dep
 
 The IOOS Biological Observations Data Services had adopted/adapted or had built the following data standards:
 
-* Schema Terminology will be based on ratified [Darwin core](http://www.ioos.noaa.gov/exit.html?url=http%3A%2F%2Frs.tdwg.org%2Fdwc%2F), [Dublin core](http://www.ioos.noaa.gov/exit.html?url=http%3A%2F%2Fdublincore.org%2Fdocuments%2Fdces%2F) and proposed IOOS vocabularies. XML guide will also based on Darwin core XML guidance.
+* Schema Terminology will be based on ratified [Darwin core](http://rs.tdwg.org/dwc/), [Dublin core](http://dublincore.org/documents/dces/) and proposed IOOS vocabularies. XML guide will also based on Darwin core XML guidance.
 * [CF Conventions](http://cfconventions.org/) had been applied to biological data definition at the field level. This is to assure that IOOS Biological Project will be compatible with other geophysical datasets.
 * [FGDC Content Standard for Digital Geospatial Metadata (CSDGM)](http://www.fgdc.gov/metadata/geospatial-metadata-standards#csdgm) and [ISO 19115-2](http://service.ncddc.noaa.gov/rdn/www/metadata-standards/documents/MI-Metadata.pdf) are the adopted Metadata standards.
 * [ERDDAP](http://coastwatch.pfeg.noaa.gov/erddap/index.html) is the main webservice for this project.
