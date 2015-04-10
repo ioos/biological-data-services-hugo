@@ -304,7 +304,7 @@ The objective of the IOOS Biological Observations Services is to develop and dep
 &lt;p&gt;The IOOS Biological Observations Data Services had adopted/adapted or had built the following data standards:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Schema Terminology will be based on ratified &lt;a href=&#34;http://www.ioos.noaa.gov/exit.html?url=http%3A%2F%2Frs.tdwg.org%2Fdwc%2F&#34;&gt;Darwin core&lt;/a&gt;, &lt;a href=&#34;http://www.ioos.noaa.gov/exit.html?url=http%3A%2F%2Fdublincore.org%2Fdocuments%2Fdces%2F&#34;&gt;Dublin core&lt;/a&gt; and proposed IOOS vocabularies. XML guide will also based on Darwin core XML guidance.&lt;/li&gt;
+&lt;li&gt;Schema Terminology will be based on ratified &lt;a href=&#34;http://rs.tdwg.org/dwc/&#34;&gt;Darwin core&lt;/a&gt;, &lt;a href=&#34;http://dublincore.org/documents/dces/&#34;&gt;Dublin core&lt;/a&gt; and proposed IOOS vocabularies. XML guide will also based on Darwin core XML guidance.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://cfconventions.org/&#34;&gt;CF Conventions&lt;/a&gt; had been applied to biological data definition at the field level. This is to assure that IOOS Biological Project will be compatible with other geophysical datasets.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.fgdc.gov/metadata/geospatial-metadata-standards#csdgm&#34;&gt;FGDC Content Standard for Digital Geospatial Metadata (CSDGM)&lt;/a&gt; and &lt;a href=&#34;http://service.ncddc.noaa.gov/rdn/www/metadata-standards/documents/MI-Metadata.pdf&#34;&gt;ISO 19115-2&lt;/a&gt; are the adopted Metadata standards.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://coastwatch.pfeg.noaa.gov/erddap/index.html&#34;&gt;ERDDAP&lt;/a&gt; is the main webservice for this project.&lt;/li&gt;
