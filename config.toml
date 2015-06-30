@@ -9,12 +9,16 @@ languageCode = "en-us"
   Tagline = "Procedures, tutorials, templates, vocabularies"
 [params.Github]
   Head = "master"
-  Url = "https://github.com/ioos/biological-data-services"
+  URL = "https://github.com/ioos/biological-data-services"
+[[menu.extramedia]]
+    name = "PowerPoint Presentation: Three Steps to Enrollment"
+    URL = "http://ioos.github.io/biological-data-services/media_content/dmac-enrollment-sessions-2015-05-28.ppt"
+    weight = -120
+    identifier = "powerpoint"
 [[menu.extramedia]]
     name = "Webinar: IOOS Biological Data Enrollment Process (video)"
-    url = "https://mmancusa.webex.com/mmancusa/ldr.php?RCID=a08a97a20c0328828c0bc2f4e07f0fa2"
+    URL = "https://mmancusa.webex.com/mmancusa/ldr.php?RCID=a08a97a20c0328828c0bc2f4e07f0fa2"
     weight = -110
-    identifier = "video"
+    identifier = "webcast"
+
 	
-	
- 
