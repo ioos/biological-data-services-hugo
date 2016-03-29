@@ -1522,7 +1522,6 @@ The objective of the IOOS Biological Observations Services is to develop and dep
 &lt;p&gt;&amp;nbsp; &lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://ioos.github.io/biological-data-services/images/img_fig_1.jpg&#34; alt=&#34;IOOS Biological data flow&#34; /&gt;
-
 &lt;a name=&#34;Fig_1&#34;&gt;&lt;/a&gt; &lt;strong&gt;Figure 1. IOOS Biological data flow: from data providers through RAs to IOOS Registry/Catalog/Viewer &lt;br&gt;(i.e. US IOOS Portal) and other National portals (e.g. OBIS-USA, Data.gov, NMFS InPORT) and archiving center (NODC).&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp; &lt;br&gt;&lt;/p&gt;
@@ -1552,7 +1551,6 @@ The objective of the IOOS Biological Observations Services is to develop and dep
 &lt;p&gt;&amp;nbsp; &lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://ioos.github.io/biological-data-services/images/img_fig_2.jpg&#34; alt=&#34;Procedure steps&#34; /&gt;
-
 &lt;a name=&#34;Fig_2&#34;&gt;&lt;/a&gt; &lt;strong&gt;Figure 2. Biological data provider’s enrollment procedure steps.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp; &lt;br&gt;&lt;/p&gt;
@@ -1735,7 +1733,7 @@ Examples: number of records, number of taxa and locations, date range, ranges an
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.ioos.noaa.gov/data/contribute_data.html&#34;&gt;Guidance for Implementation of the Integrated Ocean Observing System (IOOS) Data Management and Communications (DMAC) Subsystem Version July 2013&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://mmisw.org/ont/ioos/biological&#34;&gt;IOOS Biological Data Terminology version 1.1&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://mmisw.org/ont/ioos/biological&#34;&gt;IOOS Biological Data Terminology&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://geo-ide.noaa.gov/wiki/index.php?title=Category%3AISO_19115&#34;&gt;ISO 19115 Metadata Standard for Geographic Data NOAA NGDC&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
