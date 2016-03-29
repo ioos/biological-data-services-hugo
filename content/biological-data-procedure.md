@@ -179,7 +179,7 @@ Special thanks go to Jim Potemra (PacIOOS), Vembu Subramanian (SECOORA), Matt Ho
 
 2. [Guidance for Implementation of the Integrated Ocean Observing System (IOOS) Data Management and Communications (DMAC) Subsystem Version July 2013](http://www.ioos.noaa.gov/data/contribute_data.html)
 
-3. [IOOS Biological Data Terminology version 1.1](http://mmisw.org/ont/ioos/biological)
+3. [IOOS Biological Data Terminology](http://mmisw.org/ont/ioos/biological)
 
 4. [ISO 19115 Metadata Standard for Geographic Data NOAA NGDC](https://geo-ide.noaa.gov/wiki/index.php?title=Category%3AISO_19115)
 
