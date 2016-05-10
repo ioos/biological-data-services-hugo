@@ -40,7 +40,7 @@ The IOOS Biological Data terminology is a list of data fields with names, descri
 ## Version 1
  
 * Originally submitted by Philip Goldstein, USGS/OBIS-USA on 2012-06-08
-* [Marine Metadata Interoperability (MMI) Ontology Registry and Repository (ORR) Website](http://www.ioos.noaa.gov/exit.html?url=http%3A%2F%2Fmmisw.org%2Forr%2F%23http%3A%2F%2Fmmisw.org%2Font%2Fioos%2Fbiological).  The MMI ORR provides reference URLs that promote machine-to-machine discovery and use of ontologies and vocabularies.
+* [Marine Metadata Interoperability (MMI) Ontology Registry and Repository (ORR) Website](http://mmisw.org/orr/#http://mmisw.org/ont/ioos/biological).  The MMI ORR provides reference URLs that promote machine-to-machine discovery and use of ontologies and vocabularies.
 
 ### &nbsp; &nbsp; Definitions 
 
