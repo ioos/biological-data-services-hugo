@@ -43,16 +43,16 @@ IOOS was established with the core principle that observation data should be mad
 
 # IOOS BIOLOGICAL DATA FLOW
 
-Data flow is represented in [**Figure 1**](#Fig_1). IOOS Regional Associations (RA) can enroll biological data providers (i.e. IOOS Biological Core variables: fish species, fish abundance, zooplankton species, zooplankton abundance and phytoplankton species) following the IOOS enrollment procedures outlined and register their web services to the [IOOS Registry](http://www.ioos.noaa.gov/catalog/register.html). For broader dissemination, the IOOS registry will then connect the data to other data portals such as  [Data.gov](http://www.data.gov/), [OBIS](http://www.usgs.gov/obis-usa/), [NMFS InPort](https://inport.nmfs.noaa.gov/inport/), etc., and national Archiving Center ([NODC](http://www.nodc.noaa.gov/)), and make the data accessible to data users.
+Data flow is represented in [**Figure 1**](#Fig_1). IOOS Regional Associations (RA) can enroll biological data providers (i.e. IOOS Biological Core variables: fish species, fish abundance, zooplankton species, zooplankton abundance and phytoplankton species) following the IOOS enrollment procedures outlined and register their web services to the [IOOS Registry](http://www.ioos.noaa.gov/catalog/register.html). For broader dissemination, the IOOS registry will then connect the data to other data portals such as  [Data.gov](http://www.data.gov/), [OBIS](http://www.usgs.gov/obis-usa/), [NMFS InPort](https://inport.nmfs.noaa.gov/inport/), etc., and national Archiving Center ([NOAA's National Centers for Environmental Information (NCEI), formerly the National Oceanographic Data Center (NODC)](http://www.nodc.noaa.gov/)), and make the data accessible to data users.
 
 &nbsp; <br>
 
-![IOOS Biological data flow](/images/img_fig_1.jpg) 
-<a name="Fig_1"></a> **Figure 1. IOOS Biological data flow: from data providers through RAs to IOOS Registry/Catalog/Viewer <br>(i.e. US IOOS Portal) and other National portals (e.g. OBIS-USA, Data.gov, NMFS InPORT) and archiving center (NODC).** 
+![IOOS Biological data flow](/images/img_fig_1-mod.jpg) 
+<a name="Fig_1"></a> **Figure 1. IOOS Biological data flow: from data providers through RAs to IOOS Registry/Catalog/Viewer <br>(i.e. US IOOS Portal) and other National portals (e.g. OBIS-USA, Data.gov, NMFS InPORT) and archiving center (NCEI).** 
 
 &nbsp; <br>
 
-Data providers can provide their biological data to RAs through accepted RAs webservice, database connection or data extract. RAs will then enroll the data using IOOS Biological Data Services (IOOS BDS) enrollment procedures (see below) and register the data to US IOOS service registry. The data users (e.g. scientists, managers) can access the data from US IOOS portal, RA portals or from other national portal and archiving center (NODC) in a standard form.
+Data providers can provide their biological data to RAs through accepted RAs webservice, database connection or data extract. RAs will then enroll the data using IOOS Biological Data Services (IOOS BDS) enrollment procedures (see below) and register the data to US IOOS service registry. The data users (e.g. scientists, managers) can access the data from US IOOS portal, RA portals or from other national portal and archiving center (NCEI) in a standard form.
 
 In order for an RA to enroll biological data in the IOOS DMAC system, the RA must first agree to the following:
 
@@ -123,7 +123,7 @@ The dataset’s metadata, or a link to it, must be distributed to [IOOS Service 
 
 ## Step \# 8. Archive with NOAA's National Centers for Environmental Information (NCEI)
 
-Send the new dataset (data and metadata) to NCEI (formerly NODC). This should be done with the process that is already in place between NOAA IOOS Program Office, RAs and NCEI to [archive observing data](https://www.ncdc.noaa.gov/customer-support/archiving-your-data-ncdc). Two important aspects of this coordination with NCEI are (1) make sure that NCEI has the same version of the data (i.e., the same snapshot in the lifecycle of the data contents) that IOOS is serving, and (2) as much as possible, the same metadata should be used by IOOS BDS and NCEI.
+Send the new dataset (data and metadata) to NCEI. This should be done with the process that is already in place between NOAA IOOS Program Office, RAs and NCEI to [archive observing data](https://www.ncdc.noaa.gov/customer-support/archiving-your-data-ncdc). Two important aspects of this coordination with NCEI are (1) make sure that NCEI has the same version of the data (i.e., the same snapshot in the lifecycle of the data contents) that IOOS is serving, and (2) as much as possible, the same metadata should be used by IOOS BDS and NCEI.
 
 ## Step \#9. Synchronizing data and metadata with OBIS-USA and IOOS System
 
