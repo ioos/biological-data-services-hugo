@@ -121,9 +121,9 @@ If the dataset will be published via ERDDAP, an [XML description of the dataset]
 
 The dataset’s metadata, or a link to it, must be distributed to [IOOS Service Registry](https://github.com/ioos/registry). IOOS Registry then will make it available to desired locations, such as repositories (e.g., NASA GCMD etc.), portals (e.g., Data.gov), search engines, or other systems that can utilize the metadata. Requirements for this step include assuring that the master copy of metadata is under control, and that there are procedures to assure that all secondary copies will get updated whenever the master copy is changed.
 
-## Step \# 8. Archive with NOAA National Oceanographic Data Center (NODC)
+## Step \# 8. Archive with NOAA's National Centers for Environmental Information (NCEI)
 
-Send the new dataset (data and metadata) to NODC. This should be done with the process that is already in place between NOAA IOOS Program Office, RAs and NODC to archive observing data. Two important aspects of this coordination with NODC are (1) make sure that NODC has the same version of the data (i.e., the same snapshot in the lifecycle of the data contents) that IOOS is serving, and (2) as much as possible, the same metadata should be used by IOOS BDS and NODC.
+Send the new dataset (data and metadata) to NCEI (formerly NODC). This should be done with the process that is already in place between NOAA IOOS Program Office, RAs and NCEI to [archive observing data](https://www.ncdc.noaa.gov/customer-support/archiving-your-data-ncdc). Two important aspects of this coordination with NCEI are (1) make sure that NCEI has the same version of the data (i.e., the same snapshot in the lifecycle of the data contents) that IOOS is serving, and (2) as much as possible, the same metadata should be used by IOOS BDS and NCEI.
 
 ## Step \#9. Synchronizing data and metadata with OBIS-USA and IOOS System
 
