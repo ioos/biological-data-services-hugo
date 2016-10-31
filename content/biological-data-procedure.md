@@ -74,7 +74,7 @@ The following section of this document describe the steps ([**Figure 2**](#Fig_2
 
 &nbsp; <br>
 
-![Procedure steps](/images/img_fig_2.jpg) 
+![Procedure steps](/images/img_fig_2-mod.jpg) 
 <a name="Fig_2"></a> **Figure 2. Biological data provider’s enrollment procedure steps.**
 
 &nbsp; <br>
