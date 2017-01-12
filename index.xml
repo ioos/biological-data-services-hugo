@@ -2152,7 +2152,7 @@ The objective of the IOOS Biological Observations Services is to develop and dep
 
 &lt;p&gt;Occurrence data can be made more consistent by using standard observation methods and by following standards, such as IOOS BDS, for formatting and presenting the data. Data that is more consistent is more useful.&lt;/p&gt;
 
-&lt;h2 id=&#34;step-1-format-occurrence-data-to-enroll-data-in-ioos-bds:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;Step #1 - Format Occurrence Data to enroll data in IOOS BDS&lt;/h2&gt;
+&lt;h2 id=&#34;step-1-format-occurrence-data-to-enroll-data-in-ioos-bds:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;Step # 1 - Format Occurrence Data to enroll data in IOOS BDS&lt;/h2&gt;
 
 &lt;p&gt;The goal is to obtain data in taxon-location-time format. The RA will work with the provider in two steps: (1a) verify that the contents of the dataset do in fact contain occurrence information (observed taxon-location-date-details), and (1b) perform data manipulation, such as relational joins, to gather the occurrence data in a single table with columns and rows with each row representing a taxon-specific occurrence. A row may represent a group of occurences, after binning by sex, size, or other characteristics of biology or the observation method, or they may be aggregated as totals without division into such bins. Each column from left to right across the row represents detail about the occurrence. For more on the use and meaning of each column, see &lt;a href=&#34;http://ioos.github.io/biological-data-services/biological-data-procedure/#toc_10&#34;&gt;Step #3&lt;/a&gt;.&lt;/p&gt;
 
@@ -2320,9 +2320,7 @@ Examples: number of records, number of taxa and locations, date range, ranges an
 &lt;h2 id=&#34;citations:6e913f4855ab21459d7e72c3e16dd38c&#34;&gt;Citations&lt;/h2&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.ioos.noaa.gov/data/contribute_data.html&#34;&gt;IOOS DMAC Guidance&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.ioos.noaa.gov/data/contribute_data.html&#34;&gt;Guidance for Implementation of the Integrated Ocean Observing System (IOOS) Data Management and Communications (DMAC) Subsystem Version July 2013&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://ioos.noaa.gov/data/contribute-data/&#34;&gt;Guidance for Implementation of the Integrated Ocean Observing System (IOOS) Data Management and Communications (DMAC) Subsystem&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://mmisw.org/ont/ioos/biological&#34;&gt;IOOS Biological Data Terminology&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
