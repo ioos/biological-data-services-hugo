@@ -85,7 +85,7 @@ The core component of IOOS BDS is an occurrence record. An occurrence is an obse
 
 Occurrence data can be made more consistent by using standard observation methods and by following standards, such as IOOS BDS, for formatting and presenting the data. Data that is more consistent is more useful.
  
-## Step \#1 - Format Occurrence Data to enroll data in IOOS BDS
+## Step \# 1 - Format Occurrence Data to enroll data in IOOS BDS
 
 The goal is to obtain data in taxon-location-time format. The RA will work with the provider in two steps: (1a) verify that the contents of the dataset do in fact contain occurrence information (observed taxon-location-date-details), and (1b) perform data manipulation, such as relational joins, to gather the occurrence data in a single table with columns and rows with each row representing a taxon-specific occurrence. A row may represent a group of occurences, after binning by sex, size, or other characteristics of biology or the observation method, or they may be aggregated as totals without division into such bins. Each column from left to right across the row represents detail about the occurrence. For more on the use and meaning of each column, see [Step \#3](/biological-data-procedure/#toc_10).
 
@@ -175,14 +175,12 @@ Special thanks go to Jim Potemra (PacIOOS), Vembu Subramanian (SECOORA), Matt Ho
 
 ## Citations
 
-1. [IOOS DMAC Guidance](http://www.ioos.noaa.gov/data/contribute_data.html)
+1. [Guidance for Implementation of the Integrated Ocean Observing System (IOOS) Data Management and Communications (DMAC) Subsystem](https://ioos.noaa.gov/data/contribute-data/)
 
-2. [Guidance for Implementation of the Integrated Ocean Observing System (IOOS) Data Management and Communications (DMAC) Subsystem Version July 2013](http://www.ioos.noaa.gov/data/contribute_data.html)
+2. [IOOS Biological Data Terminology](http://mmisw.org/ont/ioos/biological)
 
-3. [IOOS Biological Data Terminology](http://mmisw.org/ont/ioos/biological)
+3. [ISO 19115 Metadata Standard for Geographic Data NOAA NGDC](https://geo-ide.noaa.gov/wiki/index.php?title=Category%3AISO_19115)
 
-4. [ISO 19115 Metadata Standard for Geographic Data NOAA NGDC](https://geo-ide.noaa.gov/wiki/index.php?title=Category%3AISO_19115)
-
-5. [IOOS Service Registry](https://github.com/ioos/registry)
+4. [IOOS Service Registry](https://github.com/ioos/registry)
 
 &nbsp; <br>
